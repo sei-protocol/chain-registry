@@ -1,0 +1,14 @@
+{
+  "testnet": {
+    "name": "testnet",
+    "chainID": "atlantic-2",
+    "rest": "https://rest.atlantic-2.seinetwork.io",
+    "rpc": "https://rpc.atlantic-2.seinetwork.io"
+  },
+  "devnet": {
+    "name": "devnet",
+    "chainID": "sei-devnet-3",
+    "rest": "https://rest.sei-devnet-3.seinetwork.io",
+    "rpc": "https://rpc.sei-devnet-3.seinetwork.io"
+  }
+}
