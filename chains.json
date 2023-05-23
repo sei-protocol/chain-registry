@@ -3,28 +3,28 @@
     "chainId": "pacific-1",
     "network_type": "mainnet",
     "slip44": 118,
-    "rest": "https://rest.pacific-1.seinetwork.io",
-    "rpc": "https://rpc.pacific-1.seinetwork.io"
-  },,
+    "rpc": [],
+    "rest": [],
+    "explorers": []
+  },
   "atlantic-2": {
     "chainId": "atlantic-2",
     "network_type": "testnet",
-    "slip44": 118,
-    "rest": "https://rest.atlantic-2.seinetwork.io",
-    "rpc": "https://rpc.atlantic-2.seinetwork.io"
+    "rpc": [],
+    "rest": [],
+    "explorers": [
+      {
+        "name": "explorers-guru",
+        "url": "https://sei.explorers.guru",
+        "tx_page": "https://sei.explorers.guru/tx/${txHash}"
+      }
+    ]
   },
   "sei-devnet-3": {
     "chainId": "sei-devnet-3",
     "network_type": "devnet",
-    "slip44": 118,
-    "rest": "https://rest.sei-devnet-3.seinetwork.io",
-    "rpc": "https://rpc.sei-devnet-3.seinetwork.io"
-  },
-  "sei-internal": {
-    "chainId": "sei-internal",
-    "network_type": "devnet",
-    "slip44": 118,
-    "rest": "https://rest.sei-internal.seinetwork.io",
-    "rpc": "https://rpc.sei-internal.seinetwork.io"
+    "rpc": [],
+    "rest": [],
+    "explorers": []
   }
 }

@@ -1,7 +1,7 @@
 {
   "pacific-1": [
     {
-      "description": "The native staking and governance token of the Sei network.",
+      "description": "The native token of the Sei network.",
       "denom_units": [
         {
           "denom": "usei",
@@ -13,14 +13,14 @@
         }
       ],
       "base": "usei",
+      "display_base": "sei",
       "name": "Sei",
-      "display": "sei",
       "symbol": "SEI"
     }
   ],
   "atlantic-2": [
     {
-      "description": "The native staking and governance token of the Sei network.",
+      "description": "The native token of the Sei network.",
       "denom_units": [
         {
           "denom": "usei",
@@ -32,14 +32,14 @@
         }
       ],
       "base": "usei",
+      "display_base": "sei",
       "name": "Sei",
-      "display": "sei",
       "symbol": "SEI"
     }
   ],
   "sei-devnet-3": [
     {
-      "description": "The native staking and governance token of the Sei network.",
+      "description": "The native token of the Sei network.",
       "denom_units": [
         {
           "denom": "usei",
@@ -51,27 +51,8 @@
         }
       ],
       "base": "usei",
+      "display_base": "sei",
       "name": "Sei",
-      "display": "sei",
-      "symbol": "SEI"
-    }
-  ],
-  "sei-internal": [
-    {
-      "description": "The native staking and governance token of the Sei network.",
-      "denom_units": [
-        {
-          "denom": "usei",
-          "exponent": 0
-        },
-        {
-          "denom": "sei",
-          "exponent": 6
-        }
-      ],
-      "base": "usei",
-      "name": "Sei",
-      "display": "sei",
       "symbol": "SEI"
     }
   ]

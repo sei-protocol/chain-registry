@@ -1,38 +1,26 @@
 {
   "pacific-1": {
     "denom": "usei",
-    "limit": 1000,
     "price": {
-      "low": 150,
-      "average": 500,
-      "high": 1000
+      "low": 0.005,
+      "average": 0.015,
+      "high": 0.025
     }
   },
   "atlantic-2": {
     "denom": "usei",
-    "limit": 1000,
     "price": {
-      "low": 150,
-      "average": 500,
-      "high": 1000
+      "low": 0.005,
+      "average": 0.015,
+      "high": 0.025
     }
   },
   "sei-devnet-3": {
     "denom": "usei",
-    "limit": 1000,
     "price": {
-      "low": 150,
-      "average": 500,
-      "high": 1000
-    }
-  },
-  "sei-internal": {
-    "denom": "usei",
-    "limit": 1000,
-    "price": {
-      "low": 150,
-      "average": 500,
-      "high": 1000
+      "low": 0.005,
+      "average": 0.015,
+      "high": 0.025
     }
   }
 }
