@@ -1,0 +1,38 @@
+{
+  "pacific-1": {
+    "denom": "usei",
+    "limit": 1000,
+    "price": {
+      "low": 150,
+      "average": 500,
+      "high": 1000
+    }
+  },
+  "atlantic-2": {
+    "denom": "usei",
+    "limit": 1000,
+    "price": {
+      "low": 150,
+      "average": 500,
+      "high": 1000
+    }
+  },
+  "sei-devnet-3": {
+    "denom": "usei",
+    "limit": 1000,
+    "price": {
+      "low": 150,
+      "average": 500,
+      "high": 1000
+    }
+  },
+  "sei-internal": {
+    "denom": "usei",
+    "limit": 1000,
+    "price": {
+      "low": 150,
+      "average": 500,
+      "high": 1000
+    }
+  }
+}
