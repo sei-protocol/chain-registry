@@ -1,26 +1,14 @@
 {
   "pacific-1": {
     "denom": "usei",
-    "price": {
-      "low": 0.005,
-      "average": 0.015,
-      "high": 0.025
-    }
+    "min_gas_price": 0.01
   },
   "atlantic-2": {
     "denom": "usei",
-    "price": {
-      "low": 0.005,
-      "average": 0.015,
-      "high": 0.025
-    }
+    "min_gas_price": 0.01
   },
   "sei-devnet-3": {
     "denom": "usei",
-    "price": {
-      "low": 0.005,
-      "average": 0.015,
-      "high": 0.025
-    }
+    "min_gas_price": 0.01
   }
 }

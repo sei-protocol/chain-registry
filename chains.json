@@ -10,8 +10,8 @@
   "atlantic-2": {
     "chainId": "atlantic-2",
     "network_type": "testnet",
-    "rpc": [],
-    "rest": [],
+    "rpc": ["https://rpc-sei.rhinostake.com"],
+    "rest": ["https://rest-sei.rhinostake.com"],
     "explorers": [
       {
         "name": "explorers-guru",
