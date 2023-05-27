@@ -3,15 +3,59 @@
     "chainId": "pacific-1",
     "network_type": "mainnet",
     "slip44": 118,
-    "rpc": [],
-    "rest": [],
+    "rpc": [{
+      "provider": "Rhino",
+      "url": "https://rpc-sei.rhinostake.com"
+    }, {
+      "provider": "Polkachu",
+      "url": "https://sei-rpc.polkachu.com"
+    }, {
+      "provider": "Brochain",
+      "url": "https://sei-rpc.brocha.in"
+    }],
+    "rest": [{
+      "provider": "Rhino",
+      "url": "https://rest-sei.rhinostake.com"
+    }, {
+      "provider": "Polkachu",
+      "url": "https://sei-api.polkachu.com"
+    }, {
+      "provider": "Brochain",
+      "url": "https://sei-rest.brocha.in"
+    }],
+    "grpc": [{
+      "provider": "Rhino",
+      "url": "https://grpc-sei.rhinostake.com"
+    }, {
+      "provider": "Polkachu",
+      "url": "https://sei-grpc.polkachu.com:11990"
+    }],
     "explorers": []
   },
   "atlantic-2": {
     "chainId": "atlantic-2",
     "network_type": "testnet",
-    "rpc": ["https://rpc-sei.rhinostake.com"],
-    "rest": ["https://rest-sei.rhinostake.com"],
+    "rpc": [{
+      "provider": "Rhino",
+      "url": "https://rpc-sei-testnet.rhinostake.com"
+    },{
+      "provider": "Polkachu",
+      "url": "https://sei-testnet-rpc.polkachu.com"
+    }],
+    "rest": [{
+      "provider": "Rhino",
+      "url": "https://rest-sei-testnet.rhinostake.com"
+    },{
+      "provider": "Polkachu",
+      "url": "https://sei-testnet-api.polkachu.com"
+    }],
+    "grpc": [{
+      "provider": "Rhino",
+      "url": "https://grpc-sei-testnet.rhinostake.com"
+    },{
+      "provider": "Polkachu",
+      "url": "http://sei-testnet-grpc.polkachu.com:11990"
+    }],
     "explorers": [
       {
         "name": "explorers-guru",
