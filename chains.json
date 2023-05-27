@@ -1,14 +1,74 @@
 {
-  "testnet": {
-    "name": "testnet",
-    "chainID": "atlantic-2",
-    "rest": "https://rest.atlantic-2.seinetwork.io",
-    "rpc": "https://rpc.atlantic-2.seinetwork.io"
+  "pacific-1": {
+    "chainId": "pacific-1",
+    "network_type": "mainnet",
+    "slip44": 118,
+    "rpc": [{
+      "provider": "Rhino",
+      "url": "https://rpc-sei.rhinostake.com"
+    }, {
+      "provider": "Polkachu",
+      "url": "https://sei-rpc.polkachu.com"
+    }, {
+      "provider": "Brochain",
+      "url": "https://sei-rpc.brocha.in"
+    }],
+    "rest": [{
+      "provider": "Rhino",
+      "url": "https://rest-sei.rhinostake.com"
+    }, {
+      "provider": "Polkachu",
+      "url": "https://sei-api.polkachu.com"
+    }, {
+      "provider": "Brochain",
+      "url": "https://sei-rest.brocha.in"
+    }],
+    "grpc": [{
+      "provider": "Rhino",
+      "url": "https://grpc-sei.rhinostake.com"
+    }, {
+      "provider": "Polkachu",
+      "url": "https://sei-grpc.polkachu.com:11990"
+    }],
+    "explorers": []
   },
-  "devnet": {
-    "name": "devnet",
-    "chainID": "sei-devnet-3",
-    "rest": "https://rest.sei-devnet-3.seinetwork.io",
-    "rpc": "https://rpc.sei-devnet-3.seinetwork.io"
+  "atlantic-2": {
+    "chainId": "atlantic-2",
+    "network_type": "testnet",
+    "rpc": [{
+      "provider": "Rhino",
+      "url": "https://rpc-sei-testnet.rhinostake.com"
+    },{
+      "provider": "Polkachu",
+      "url": "https://sei-testnet-rpc.polkachu.com"
+    }],
+    "rest": [{
+      "provider": "Rhino",
+      "url": "https://rest-sei-testnet.rhinostake.com"
+    },{
+      "provider": "Polkachu",
+      "url": "https://sei-testnet-api.polkachu.com"
+    }],
+    "grpc": [{
+      "provider": "Rhino",
+      "url": "https://grpc-sei-testnet.rhinostake.com"
+    },{
+      "provider": "Polkachu",
+      "url": "http://sei-testnet-grpc.polkachu.com:11990"
+    }],
+    "explorers": [
+      {
+        "name": "explorers-guru",
+        "url": "https://sei.explorers.guru",
+        "tx_page": "https://sei.explorers.guru/tx/${txHash}"
+      }
+    ]
+  },
+  "sei-devnet-3": {
+    "chainId": "sei-devnet-3",
+    "network_type": "devnet",
+    "rpc": [],
+    "rest": [],
+    "explorers": []
   }
 }
