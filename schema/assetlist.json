@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "pacific-1": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/token" }
+    },
+    "atlantic-2": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/token" }
+    },
+    "sei-devnet-3": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/token" }
+    }
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "token": {
+      "type": "object",
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+        "denom_units": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/denom_unit" }
+        },
+        "base": {
+          "type": "string"
+        },
+        "display_base": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "symbol": {
+          "type": "string"
+        }
+      },
+      "required": ["description", "denom_units", "base", "display_base", "name", "symbol"],
+      "additionalProperties": false
+    },
+    "denom_unit": {
+      "type": "object",
+      "properties": {
+        "denom": {
+          "type": "string"
+        },
+        "exponent": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": ["denom", "exponent"],
+      "additionalProperties": false
+    }
+  }
+}
