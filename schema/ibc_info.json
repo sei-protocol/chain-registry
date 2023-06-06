@@ -4,16 +4,16 @@
   "properties": {
     "pacific-1": {
       "type": "array",
-      "items": { "$ref": "#/definitions/connection" }
+      "items": { "$ref": "#/definitions/channel" }
     },
     "atlantic-2": {
       "type": "array",
-      "items": { "$ref": "#/definitions/connection" }
+      "items": { "$ref": "#/definitions/channel" }
     }
   },
   "additionalProperties": false,
   "definitions": {
-    "connection": {
+    "channel": {
       "type": "object",
       "properties": {
         "counterparty_chain_name": {
