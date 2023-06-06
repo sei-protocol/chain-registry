@@ -25,3 +25,4 @@ if __name__ == "__main__":
     validate_file('./schema/chains.json', './chains.json')
     validate_file('./schema/chain_info.json', './chain_info.json')
     validate_file('./schema/assetlist.json', './assetlist.json')
+    validate_file('./schema/ibc_info.json', './ibc_info.json')
