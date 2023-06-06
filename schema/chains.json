@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "pacific-1": {
+      "$ref": "#/definitions/chain"
+    },
+    "atlantic-2": {
+      "$ref": "#/definitions/chain"
+    },
+    "sei-devnet-3": {
+      "$ref": "#/definitions/chain"
+    }
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "chain": {
+      "type": "object",
+      "properties": {
+        "chainId": {
+          "type": "string"
+        },
+        "network_type": {
+          "type": "string",
+          "enum": ["mainnet", "testnet", "devnet"]
+        },
+        "slip44": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "rpc": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/provider" }
+        },
+        "rest": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/provider" }
+        },
+        "grpc": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/provider" }
+        },
+        "explorers": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/explorer" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "provider": {
+      "type": "object",
+      "properties": {
+        "provider": { "type": "string" },
+        "url": { "type": "string", "format": "uri" }
+      },
+      "required": ["provider", "url"],
+      "additionalProperties": false
+    },
+    "explorer": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "tx_page": { "type": "string" }
+      },
+      "required": ["name", "url"],
+      "additionalProperties": false
+    }
+  }
+}
