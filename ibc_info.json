@@ -1,0 +1,42 @@
+{
+  "pacific-1": [
+    {
+      "counterparty_chain_name": "osmosis-1",
+      "dst_channel": "channel-782",
+      "src_channel": "channel-0",
+      "port_id": "transfer"
+    },
+    {
+      "counterparty_chain_name": "cosmoshub-4",
+      "dst_channel": "channel-584",
+      "src_channel": "channel-1",
+      "port_id": "transfer"
+    },
+    {
+      "counterparty_chain_name": "axelar-dojo-1",
+      "dst_channel": "channel-103",
+      "src_channel": "channel-2",
+      "port_id": "transfer"
+    },
+    {
+      "counterparty_chain_name": "phoenix-1",
+      "dst_channel": "channel-158",
+      "src_channel": "channel-3",
+      "port_id": "transfer"
+    }
+  ],
+  "atlantic-2": [
+    {
+      "counterparty_chain_name": "osmo-test-5",
+      "dst_channel": "channel-102",
+      "src_channel": "channel-43",
+      "port_id": "transfer"
+    },
+    {
+      "counterparty_chain_name": "axelar-testnet-lisbon-3",
+      "dst_channel": "channel-257",
+      "src_channel": "channel-44",
+      "port_id": "transfer"
+    }
+  ]
+}
