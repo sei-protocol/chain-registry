@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "chain_name": {
+      "type": "string"
+    },
+    "network_type": {
+      "type": "string",
+      "enum": ["mainnet", "testnet", "devnet"]
+    },
+    "chain_id": {
+      "type": "string"
+    },
+    "daemon_name": {
+      "type": "string"
+    },
+    "bech32_prefix": {
+      "type": "string"
+    },
+    "key_algos": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "slip44": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "fee_token": {
+      "type": "string"
+    },
+    "supported_wallets": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "required": ["chain_name", "network_type", "chain_id", "daemon_name", "bech32_prefix", "key_algos", "slip44", "fee_token", "supported_wallets"],
+  "additionalProperties": false
+}

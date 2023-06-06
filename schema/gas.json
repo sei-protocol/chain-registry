@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "pacific-1": {
+      "$ref": "#/definitions/chain"
+    },
+    "atlantic-2": {
+      "$ref": "#/definitions/chain"
+    },
+    "sei-devnet-3": {
+      "$ref": "#/definitions/chain"
+    }
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "chain": {
+      "type": "object",
+      "properties": {
+        "denom": {
+          "type": "string"
+        },
+        "min_gas_price": {
+          "type": "number"
+        },
+        "module_adjustments": {
+          "type": "object",
+          "properties": {
+            "dex": {
+              "type": "object",
+              "properties": {
+                "sudo_gas_price": {
+                  "type": "number"
+                },
+                "order_placement": {
+                  "type": "number"
+                },
+                "order_cancellation": {
+                  "type": "number"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
