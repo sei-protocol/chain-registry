@@ -27,9 +27,12 @@
         },
         "port_id": {
           "type": "string"
+        },
+        "client_id": {
+          "type": "string"
         }
       },
-      "required": ["counterparty_chain_name", "dst_channel", "src_channel", "port_id"],
+      "required": ["counterparty_chain_name", "dst_channel", "src_channel", "port_id", "client_id"],
       "additionalProperties": false
     }
   }
