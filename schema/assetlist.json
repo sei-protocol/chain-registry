@@ -30,7 +30,7 @@
         "base": {
           "type": "string"
         },
-        "display_base": {
+        "display": {
           "type": "string"
         },
         "name": {
@@ -38,9 +38,30 @@
         },
         "symbol": {
           "type": "string"
+        },
+        "images": {
+          "type": "object",
+          "properties": {
+            "png": {
+              "type": "string",
+              "format": "uri-reference"
+            },
+            "svg": {
+              "type": "string",
+              "format": "uri-reference"
+            }
+          }
         }
       },
-      "required": ["description", "denom_units", "base", "display_base", "name", "symbol"],
+      "required": [
+        "description",
+        "denom_units",
+        "base",
+        "display",
+        "name",
+        "symbol",
+        "images"
+      ],
       "additionalProperties": false
     },
     "denom_unit": {
