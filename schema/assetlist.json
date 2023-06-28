@@ -38,6 +38,19 @@
         },
         "symbol": {
           "type": "string"
+        },
+        "images": {
+          "type": "object",
+          "properties": {
+            "png": {
+              "type": "string",
+              "format": "uri-reference"
+            },
+            "svg": {
+              "type": "string",
+              "format": "uri-reference"
+            }
+          }
         }
       },
       "required": [
@@ -46,7 +59,8 @@
         "base",
         "display",
         "name",
-        "symbol"
+        "symbol",
+        "images"
       ],
       "additionalProperties": false
     },
