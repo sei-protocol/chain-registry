@@ -30,7 +30,7 @@
         "base": {
           "type": "string"
         },
-        "display_base": {
+        "display": {
           "type": "string"
         },
         "name": {
@@ -40,7 +40,14 @@
           "type": "string"
         }
       },
-      "required": ["description", "denom_units", "base", "display_base", "name", "symbol"],
+      "required": [
+        "description",
+        "denom_units",
+        "base",
+        "display",
+        "name",
+        "symbol"
+      ],
       "additionalProperties": false
     },
     "denom_unit": {
