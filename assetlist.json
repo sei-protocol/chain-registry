@@ -294,16 +294,16 @@
     {
       "name": "Wrapped USD Coin (Wormhole from BSC)",
       "description": "Wrapped USDC from BSC (Wormhole)",
-      "symbol": "USDCbi",
+      "symbol": "USDCbs",
       "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/3Ri4N719RQfQaudHiB9CMCYACtK3aieoz1q1Ph24VdAb",
-      "display": "usdcbi",
+      "display": "usdcbs",
       "denom_units": [
         {
           "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/3Ri4N719RQfQaudHiB9CMCYACtK3aieoz1q1Ph24VdAb",
           "exponent": 0
         },
         {
-          "denom": "usdcbi",
+          "denom": "usdcbs",
           "exponent": 6
         }
       ],
@@ -315,16 +315,16 @@
     {
       "name": "Wrapped Ether (Wormhole from BSC)",
       "description": "Wrapped Ether from BSC (Wormhole)",
-      "symbol": "WETHbi",
+      "symbol": "WETHbs",
       "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/9tTHn18vLnfyBvrQaia6N15zwrfRCAebZDshoPZ39ahN",
-      "display": "wethbi",
+      "display": "wethbs",
       "denom_units": [
         {
           "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/9tTHn18vLnfyBvrQaia6N15zwrfRCAebZDshoPZ39ahN",
           "exponent": 0
         },
         {
-          "denom": "wethbi",
+          "denom": "wethbs",
           "exponent": 8
         }
       ],
@@ -335,16 +335,16 @@
     {
       "name": "Wrapped BTC (Wormhole from BSC)",
       "description": "Wrapped Bitcoin from BSC (Wormhole)",
-      "symbol": "WBTCbi",
+      "symbol": "WBTCbs",
       "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/5G7ubYHTan1WD7atm2Kyxk5YJgB6fxyUi9Sk89kNeEzn",
-      "display": "wbtcbi",
+      "display": "wbtcbs",
       "denom_units": [
         {
           "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/5G7ubYHTan1WD7atm2Kyxk5YJgB6fxyUi9Sk89kNeEzn",
           "exponent": 0
         },
         {
-          "denom": "wbtcbi",
+          "denom": "wbtcbs",
           "exponent": 8
         }
       ],
