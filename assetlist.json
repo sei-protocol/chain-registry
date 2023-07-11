@@ -103,6 +103,255 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
       }
+    },
+    {
+      "name": "Wrapped Ether (Wormhole)",
+      "description": "Wrapped Ether from Wormhole",
+      "symbol": "WETH",
+      "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/HktfLoADCk9mnjv7XJiN4YXK9ayE6xinLzt8wzcsR2rY",
+      "display": "weth",
+      "denom_units": [
+        {
+          "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/HktfLoADCk9mnjv7XJiN4YXK9ayE6xinLzt8wzcsR2rY",
+          "exponent": 0
+        },
+        {
+          "denom": "weth",
+          "exponent": 8
+        }
+      ],
+      "images": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
+      }
+    },
+    {
+      "name": "Wrapped USD Coin (Wormhole from Ethereum)",
+      "description": "Wrapped USDC from Wormhole Ethereum",
+      "symbol": "USDCet",
+      "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/Hq4tuDzhRBnxw3tFA5n6M52NVMVcC19XggbyDiJKCD6H",
+      "display": "usdcet",
+      "denom_units": [
+        {
+          "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/Hq4tuDzhRBnxw3tFA5n6M52NVMVcC19XggbyDiJKCD6H",
+          "exponent": 0
+        },
+        {
+          "denom": "usdcet",
+          "exponent": 6
+        }
+      ],
+      "images": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg",
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png"
+      }
+    },
+    {
+      "name": "Wrapped Tether USD (Wormhole from Ethereum)",
+      "description": "Wrapped Tether USD from Wormhole Ethereum",
+      "symbol": "USDTet",
+      "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/HktfLoADCk9mnjv7XJiN4YXK9ayE6xinLzt8wzcsR2rY",
+      "display": "usdtet",
+      "denom_units": [
+        {
+          "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/HktfLoADCk9mnjv7XJiN4YXK9ayE6xinLzt8wzcsR2rY",
+          "exponent": 0
+        },
+        {
+          "denom": "usdtet",
+          "exponent": 6
+        }
+      ],
+      "images": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdt.svg",
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdt.png"
+      }
+    },
+    {
+      "name": "Wrapped BTC (Wormhole from Ethereum)",
+      "description": "Wrapped Bitcoin from Wormhole Ethereum",
+      "symbol": "WBTC",
+      "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/7omXa4gryZ5NiBmLep7JsTtTtANCVKXwT9vbN91aS1br",
+      "display": "wbtc",
+      "denom_units": [
+        {
+          "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/7omXa4gryZ5NiBmLep7JsTtTtANCVKXwT9vbN91aS1br",
+          "exponent": 0
+        },
+        {
+          "denom": "wbtc",
+          "exponent": 8
+        }
+      ],
+      "images": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg"
+      }
+    },
+    {
+      "name": "Wrapped USD Coin (Wormhole from Arbitrum)",
+      "description": "Wrapped USDC from Wormhole Arbitrum",
+      "symbol": "USDCar",
+      "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/7edDfnf4mku8So3t4Do215GNHwASEwCWrdhM5GqD51xZ",
+      "display": "usdcar",
+      "denom_units": [
+        {
+          "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/7edDfnf4mku8So3t4Do215GNHwASEwCWrdhM5GqD51xZ",
+          "exponent": 0
+        },
+        {
+          "denom": "usdcar",
+          "exponent": 6
+        }
+      ],
+      "images": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg",
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png"
+      }
+    },
+    {
+      "name": "Wrapped Ether (Wormhole from Arbitrum)",
+      "description": "Wrapped Ether from Wormhole Arbitrum",
+      "symbol": "WETHar",
+      "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/9hJDBDaxqQQhF5HhaPUykeLncBa38XQ5uoNxN3tPQu5r",
+      "display": "wethar",
+      "denom_units": [
+        {
+          "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/9hJDBDaxqQQhF5HhaPUykeLncBa38XQ5uoNxN3tPQu5r",
+          "exponent": 0
+        },
+        {
+          "denom": "wethar",
+          "exponent": 8
+        }
+      ],
+      "images": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
+      }
+    },
+    {
+      "name": "Wrapped USD Coin (Wormhole from Polygon)",
+      "description": "Wrapped USDC from Wormhole Polygon",
+      "symbol": "USDCpo",
+      "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/DUVFMY2neJdL8aE4d3stcpttDDm5aoyfGyVvm29iA9Yp",
+      "display": "usdcpo",
+      "denom_units": [
+        {
+          "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/DUVFMY2neJdL8aE4d3stcpttDDm5aoyfGyVvm29iA9Yp",
+          "exponent": 0
+        },
+        {
+          "denom": "usdcpo",
+          "exponent": 6
+        }
+      ],
+      "images": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg",
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png"
+      }
+    },
+    {
+      "name": "Wrapped USD Coin (Wormhole from Optimism)",
+      "description": "Wrapped USDC from Wormhole Optimism",
+      "symbol": "USDCop",
+      "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/3VKKYtbQ9iq8f9CaZfgR6Cr3TUj6ypXPAn6kco6wjcAu",
+      "display": "usdcop",
+      "denom_units": [
+        {
+          "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/3VKKYtbQ9iq8f9CaZfgR6Cr3TUj6ypXPAn6kco6wjcAu",
+          "exponent": 0
+        },
+        {
+          "denom": "usdcop",
+          "exponent": 6
+        }
+      ],
+      "images": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg",
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png"
+      }
+    },
+    {
+      "name": "Wrapped USD Coin (Wormhole from Solana)",
+      "description": "Wrapped USDC from Wormhole Solana",
+      "symbol": "USDCso",
+      "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/9fELvUhFo6yWL34ZaLgPbCPzdk9MD1tAzMycgH45qShH",
+      "display": "usdcso",
+      "denom_units": [
+        {
+          "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/9fELvUhFo6yWL34ZaLgPbCPzdk9MD1tAzMycgH45qShH",
+          "exponent": 0
+        },
+        {
+          "denom": "usdcso",
+          "exponent": 6
+        }
+      ],
+      "images": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg",
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png"
+      }
+    },
+    {
+      "name": "Wrapped USD Coin (Wormhole from BSC)",
+      "description": "Wrapped USDC from Wormhole BSC",
+      "symbol": "USDCbi",
+      "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/3Ri4N719RQfQaudHiB9CMCYACtK3aieoz1q1Ph24VdAb",
+      "display": "usdcbi",
+      "denom_units": [
+        {
+          "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/3Ri4N719RQfQaudHiB9CMCYACtK3aieoz1q1Ph24VdAb",
+          "exponent": 0
+        },
+        {
+          "denom": "usdcbi",
+          "exponent": 6
+        }
+      ],
+      "images": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg",
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png"
+      }
+    },
+    {
+      "name": "Wrapped Ether (Wormhole from BSC)",
+      "description": "Wrapped Ether from Wormhole BSC",
+      "symbol": "WETHbi",
+      "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/9tTHn18vLnfyBvrQaia6N15zwrfRCAebZDshoPZ39ahN",
+      "display": "wethbi",
+      "denom_units": [
+        {
+          "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/9tTHn18vLnfyBvrQaia6N15zwrfRCAebZDshoPZ39ahN",
+          "exponent": 0
+        },
+        {
+          "denom": "wethbi",
+          "exponent": 8
+        }
+      ],
+      "images": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
+      }
+    },
+    {
+      "name": "Wrapped BTC (Wormhole from BSC)",
+      "description": "Wrapped Bitcoin from Wormhole BSC",
+      "symbol": "WBTCbi",
+      "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/5G7ubYHTan1WD7atm2Kyxk5YJgB6fxyUi9Sk89kNeEzn",
+      "display": "wbtcbi",
+      "denom_units": [
+        {
+          "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/5G7ubYHTan1WD7atm2Kyxk5YJgB6fxyUi9Sk89kNeEzn",
+          "exponent": 0
+        },
+        {
+          "denom": "wbtcbi",
+          "exponent": 8
+        }
+      ],
+      "images": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg"
+      }
     }
   ],
   "atlantic-2": [
