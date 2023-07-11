@@ -147,7 +147,7 @@
     },
     {
       "name": "Wrapped Tether USD (Wormhole from Ethereum)",
-      "description": "Wrapped Tether USD from Wormhole Ethereum",
+      "description": "Wrapped Tether USD from Ethereum (Wormhole)",
       "symbol": "USDTet",
       "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/HktfLoADCk9mnjv7XJiN4YXK9ayE6xinLzt8wzcsR2rY",
       "display": "usdtet",
@@ -168,7 +168,7 @@
     },
     {
       "name": "Wrapped BTC (Wormhole from Ethereum)",
-      "description": "Wrapped Bitcoin from Wormhole Ethereum",
+      "description": "Wrapped Bitcoin from Ethereum (Wormhole)",
       "symbol": "WBTC",
       "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/7omXa4gryZ5NiBmLep7JsTtTtANCVKXwT9vbN91aS1br",
       "display": "wbtc",
@@ -189,7 +189,7 @@
     },
     {
       "name": "Wrapped USD Coin (Wormhole from Arbitrum)",
-      "description": "Wrapped USDC from Wormhole Arbitrum",
+      "description": "Wrapped USDC from Arbitrum (Wormhole)",
       "symbol": "USDCar",
       "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/7edDfnf4mku8So3t4Do215GNHwASEwCWrdhM5GqD51xZ",
       "display": "usdcar",
@@ -210,7 +210,7 @@
     },
     {
       "name": "Wrapped Ether (Wormhole from Arbitrum)",
-      "description": "Wrapped Ether from Wormhole Arbitrum",
+      "description": "Wrapped Ether from Arbitrum (Wormhole)",
       "symbol": "WETHar",
       "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/9hJDBDaxqQQhF5HhaPUykeLncBa38XQ5uoNxN3tPQu5r",
       "display": "wethar",
@@ -230,7 +230,7 @@
     },
     {
       "name": "Wrapped USD Coin (Wormhole from Polygon)",
-      "description": "Wrapped USDC from Wormhole Polygon",
+      "description": "Wrapped USDC from Polygon (Wormhole)",
       "symbol": "USDCpo",
       "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/DUVFMY2neJdL8aE4d3stcpttDDm5aoyfGyVvm29iA9Yp",
       "display": "usdcpo",
@@ -251,7 +251,7 @@
     },
     {
       "name": "Wrapped USD Coin (Wormhole from Optimism)",
-      "description": "Wrapped USDC from Wormhole Optimism",
+      "description": "Wrapped USDC from Optimism (Wormhole)",
       "symbol": "USDCop",
       "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/3VKKYtbQ9iq8f9CaZfgR6Cr3TUj6ypXPAn6kco6wjcAu",
       "display": "usdcop",
@@ -272,7 +272,7 @@
     },
     {
       "name": "Wrapped USD Coin (Wormhole from Solana)",
-      "description": "Wrapped USDC from Wormhole Solana",
+      "description": "Wrapped USDC from Solana (Wormhole)",
       "symbol": "USDCso",
       "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/9fELvUhFo6yWL34ZaLgPbCPzdk9MD1tAzMycgH45qShH",
       "display": "usdcso",
@@ -293,7 +293,7 @@
     },
     {
       "name": "Wrapped USD Coin (Wormhole from BSC)",
-      "description": "Wrapped USDC from Wormhole BSC",
+      "description": "Wrapped USDC from BSC (Wormhole)",
       "symbol": "USDCbi",
       "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/3Ri4N719RQfQaudHiB9CMCYACtK3aieoz1q1Ph24VdAb",
       "display": "usdcbi",
@@ -314,7 +314,7 @@
     },
     {
       "name": "Wrapped Ether (Wormhole from BSC)",
-      "description": "Wrapped Ether from Wormhole BSC",
+      "description": "Wrapped Ether from BSC (Wormhole)",
       "symbol": "WETHbi",
       "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/9tTHn18vLnfyBvrQaia6N15zwrfRCAebZDshoPZ39ahN",
       "display": "wethbi",
@@ -334,7 +334,7 @@
     },
     {
       "name": "Wrapped BTC (Wormhole from BSC)",
-      "description": "Wrapped Bitcoin from Wormhole BSC",
+      "description": "Wrapped Bitcoin from BSC (Wormhole)",
       "symbol": "WBTCbi",
       "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/5G7ubYHTan1WD7atm2Kyxk5YJgB6fxyUi9Sk89kNeEzn",
       "display": "wbtcbi",
