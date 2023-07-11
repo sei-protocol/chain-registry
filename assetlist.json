@@ -106,7 +106,7 @@
     },
     {
       "name": "Wrapped Ether (Wormhole)",
-      "description": "Wrapped Ether from Wormhole",
+      "description": "Wrapped Ether from Ethereum (Wormhole)",
       "symbol": "WETH",
       "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/HktfLoADCk9mnjv7XJiN4YXK9ayE6xinLzt8wzcsR2rY",
       "display": "weth",
@@ -126,7 +126,7 @@
     },
     {
       "name": "Wrapped USD Coin (Wormhole from Ethereum)",
-      "description": "Wrapped USDC from Wormhole Ethereum",
+      "description": "Wrapped USDC from Ethereum (Wormhole)",
       "symbol": "USDCet",
       "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/Hq4tuDzhRBnxw3tFA5n6M52NVMVcC19XggbyDiJKCD6H",
       "display": "usdcet",
