@@ -28,7 +28,7 @@
       "display": "axlusdc",
       "denom_units": [
         {
-          "denom": "ibc/F188CCE5FBD070508295DA9772C250D71484A00FA816229CD9817DF81CFDA069",
+          "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
           "exponent": 0
         },
         {
@@ -87,11 +87,11 @@
       "name": "Atom",
       "description": "The native staking and governance token of the Cosmos Hub",
       "symbol": "ATOM",
-      "base": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+      "base": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
       "display": "atom",
       "denom_units": [
         {
-          "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+          "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
           "exponent": 0
         },
         {
@@ -108,11 +108,11 @@
       "name": "Wrapped Ether (Wormhole)",
       "description": "Wrapped Ether from Ethereum (Wormhole)",
       "symbol": "WETH",
-      "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/HktfLoADCk9mnjv7XJiN4YXK9ayE6xinLzt8wzcsR2rY",
+      "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/4tLQqCLaoKKfNFuPjA9o39YbKUwhR1F8N29Tz3hEbfP2",
       "display": "weth",
       "denom_units": [
         {
-          "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/HktfLoADCk9mnjv7XJiN4YXK9ayE6xinLzt8wzcsR2rY",
+          "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/4tLQqCLaoKKfNFuPjA9o39YbKUwhR1F8N29Tz3hEbfP2",
           "exponent": 0
         },
         {
