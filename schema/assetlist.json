@@ -10,6 +10,10 @@
       "type": "array",
       "items": { "$ref": "#/definitions/token" }
     },
+    "arctic-1": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/token" }
+    },
     "sei-devnet-3": {
       "type": "array",
       "items": { "$ref": "#/definitions/token" }

@@ -9,6 +9,10 @@
     "atlantic-2": {
       "type": "array",
       "items": { "$ref": "#/definitions/channel" }
+    },
+    "arctic-1": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/channel" }
     }
   },
   "additionalProperties": false,
