@@ -10,6 +10,9 @@
     },
     "sei-devnet-3": {
       "$ref": "#/definitions/chain"
+    },
+    "arctic-1": {
+      "$ref": "#/definitions/chain"
     }
   },
   "additionalProperties": false,

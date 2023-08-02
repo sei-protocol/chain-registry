@@ -541,5 +541,27 @@
         "png": "https://github.com/cosmos/chain-registry/blob/master/testnets/seitestnet2/images/sei.png"
       }
     }
+  ],
+  "arctic-1": [
+    {
+      "name": "Sei",
+      "description": "The native token of Sei",
+      "symbol": "SEI",
+      "base": "usei",
+      "display": "sei",
+      "denom_units": [
+        {
+          "denom": "usei",
+          "exponent": 0
+        },
+        {
+          "denom": "sei",
+          "exponent": 6
+        }
+      ],
+      "images": {
+        "png": "https://github.com/cosmos/chain-registry/blob/master/testnets/seitestnet2/images/sei.png"
+      }
+    }
   ]
 }

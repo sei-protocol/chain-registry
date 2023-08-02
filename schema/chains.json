@@ -8,6 +8,9 @@
     "atlantic-2": {
       "$ref": "#/definitions/chain"
     },
+    "arctic-1": {
+      "$ref": "#/definitions/chain"
+    },
     "sei-devnet-3": {
       "$ref": "#/definitions/chain"
     }

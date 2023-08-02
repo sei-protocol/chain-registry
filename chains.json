@@ -64,6 +64,13 @@
       }
     ]
   },
+  "arctic-1": {
+    "chainId": "arctic-1",
+    "network_type": "devnet",
+    "rpc": [],
+    "rest": [],
+    "explorers": []
+  },
   "sei-devnet-3": {
     "chainId": "sei-devnet-3",
     "network_type": "devnet",
