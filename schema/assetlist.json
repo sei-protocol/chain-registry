@@ -55,6 +55,9 @@
               "format": "uri-reference"
             }
           }
+        },
+        "coingecko_id": {
+          "type": "string"
         }
       },
       "required": [
