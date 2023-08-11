@@ -22,6 +22,10 @@ type DenomUnit struct {
 	Exponent int    `json:"exponent"`
 }
 
+// TODO: Make this configurable
+const Pacific1GRPC = "gprc.pacific-1.seinetwork.io"
+const Atlantic2GRPC = "grpc.atlantic-2.seinetwork.io"
+
 func main() {
 	file, err := ioutil.ReadFile("./schema/assetlist.json")
 	if err != nil {
