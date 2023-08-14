@@ -21,6 +21,26 @@
       }
     },
     {
+      "name": "SEA",
+      "description": "SeaSwap Token",
+      "symbol": "SEA",
+      "base": "factory/sei1g67gjpzn53hc4qsta9jqe7yq40atuqxmuakqkg/sea",
+      "display": "sea",
+      "denom_units": [
+        {
+          "denom": "factory/sei1g67gjpzn53hc4qsta9jqe7yq40atuqxmuakqkg/sea",
+          "exponent": 0
+        },
+        {
+          "denom": "sea",
+          "exponent": 6
+        }
+      ],
+      "images": {
+        "png": "ipfs://bafybeienvbj5vmecuiamsqob6newo4mpeudzur7qml7jtc5bscjkqrdkuq/sea-token.png"
+      }
+    },
+    {
       "name": "USD Coin (Axelar)",
       "description": "Circle's stablecoin on Axelar",
       "symbol": "axlUSDC",
