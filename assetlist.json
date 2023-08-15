@@ -317,7 +317,7 @@
         },
         {
           "denom": "usdcbs",
-          "exponent": 6
+          "exponent": 8
         }
       ],
       "images": {
