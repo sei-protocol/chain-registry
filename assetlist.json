@@ -386,8 +386,8 @@
         }
       ],
       "images": {
-        "png": "https://github.com/cosmos/chain-registry/blob/1e4c3974e41f658672e3ad87b07b5b52d27f3d36/planq/images/planq.png",
-        "svg": "https://github.com/cosmos/chain-registry/blob/1e4c3974e41f658672e3ad87b07b5b52d27f3d36/planq/images/planq.svg"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.svg"
       },
       "coingecko_id": "planq"
     }
