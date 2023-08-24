@@ -23,7 +23,7 @@
     {
       "name": "USD Coin (Axelar)",
       "description": "Circle's stablecoin on Axelar",
-      "symbol": "axl.USDC",
+      "symbol": "USDC.axl",
       "base": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
       "display": "axlusdc",
       "denom_units": [
