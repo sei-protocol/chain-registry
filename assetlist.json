@@ -23,7 +23,7 @@
     {
       "name": "USD Coin (Axelar)",
       "description": "Circle's stablecoin on Axelar",
-      "symbol": "axlUSDC",
+      "symbol": "axl.USDC",
       "base": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
       "display": "axlusdc",
       "denom_units": [
@@ -132,7 +132,7 @@
     {
       "name": "Wrapped USD Coin (Wormhole from Ethereum)",
       "description": "Wrapped USDC from Ethereum (Wormhole)",
-      "symbol": "USDCet",
+      "symbol": "USDC.eth",
       "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/Hq4tuDzhRBnxw3tFA5n6M52NVMVcC19XggbyDiJKCD6H",
       "display": "usdcet",
       "denom_units": [
@@ -198,7 +198,7 @@
     {
       "name": "Wrapped USD Coin (Wormhole from Arbitrum)",
       "description": "Wrapped USDC from Arbitrum (Wormhole)",
-      "symbol": "USDCar",
+      "symbol": "USDC.arb",
       "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/7edDfnf4mku8So3t4Do215GNHwASEwCWrdhM5GqD51xZ",
       "display": "usdcar",
       "denom_units": [
@@ -241,7 +241,7 @@
     {
       "name": "Wrapped USD Coin (Wormhole from Polygon)",
       "description": "Wrapped USDC from Polygon (Wormhole)",
-      "symbol": "USDCpo",
+      "symbol": "USDC.matic",
       "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/DUVFMY2neJdL8aE4d3stcpttDDm5aoyfGyVvm29iA9Yp",
       "display": "usdcpo",
       "denom_units": [
@@ -263,7 +263,7 @@
     {
       "name": "Wrapped USD Coin (Wormhole from Optimism)",
       "description": "Wrapped USDC from Optimism (Wormhole)",
-      "symbol": "USDCop",
+      "symbol": "USDC.op",
       "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/3VKKYtbQ9iq8f9CaZfgR6Cr3TUj6ypXPAn6kco6wjcAu",
       "display": "usdcop",
       "denom_units": [
@@ -285,7 +285,7 @@
     {
       "name": "Wrapped USD Coin (Wormhole from Solana)",
       "description": "Wrapped USDC from Solana (Wormhole)",
-      "symbol": "USDCso",
+      "symbol": "USDC.sol",
       "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/9fELvUhFo6yWL34ZaLgPbCPzdk9MD1tAzMycgH45qShH",
       "display": "usdcso",
       "denom_units": [
@@ -307,7 +307,7 @@
     {
       "name": "Wrapped USD Coin (Wormhole from BSC)",
       "description": "Wrapped USDC from BSC (Wormhole)",
-      "symbol": "USDCbs",
+      "symbol": "USDC.bsc",
       "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/3Ri4N719RQfQaudHiB9CMCYACtK3aieoz1q1Ph24VdAb",
       "display": "usdcbs",
       "denom_units": [
