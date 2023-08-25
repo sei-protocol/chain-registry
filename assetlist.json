@@ -154,7 +154,7 @@
     {
       "name": "Wrapped Tether USD (Wormhole from Ethereum)",
       "description": "Wrapped Tether USD from Ethereum (Wormhole)",
-      "symbol": "USDTet",
+      "symbol": "USDT.eth",
       "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/HktfLoADCk9mnjv7XJiN4YXK9ayE6xinLzt8wzcsR2rY",
       "display": "usdtet",
       "denom_units": [
@@ -350,7 +350,7 @@
     {
       "name": "Wrapped USDT (Wormhole from BSC)",
       "description": "Binance-Peg BSC-USD from BSC (Wormhole)",
-      "symbol": "USDTbs",
+      "symbol": "USDT.bsc",
       "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/871jbn9unTavWsAe83f2Ma9GJWSv6BKsyWYLiQ6z3Pva",
       "display": "usdtbs",
       "denom_units": [
