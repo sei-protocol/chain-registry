@@ -1,0 +1,95 @@
+{
+    "assets": [
+      {
+        "chain_name": "atlantic-2",
+        "base_denom": "usei",
+        "override_properties": {
+          "symbol": "SEI",
+          "logo_URIs": {
+            "png": "https://github.com/cosmos/chain-registry/blob/master/testnets/seitestnet2/images/sei.png"
+          }
+        }
+      },
+      {
+        "chain_name": "atlantic-2",
+        "base_denom": "factory/sei1jdppe6fnj2q7hjsepty5crxtrryzhuqsjrj95y/uust2",
+        "override_properties": {
+          "symbol": "UST2",
+          "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ust.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ust.png"
+          }
+        }
+      },
+      {
+        "chain_name": "ethereum-goerli",
+        "base_denom": "factory/sei1dkdwdvknx0qav5cp5kw68mkn3r99m3svkyjfvkztwh97dv2lm0ksj6xrak/AAxKX63hpBQrGGf6uhB21dJuXupvHxNTHJaktAETVGh6",
+        "path": "wormhole",
+        "override_properties": {
+          "symbol": "WETH",
+          "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
+          }
+        }
+      },
+      {
+        "chain_name": "polygon-mumbai",
+        "base_denom": "factory/sei1dkdwdvknx0qav5cp5kw68mkn3r99m3svkyjfvkztwh97dv2lm0ksj6xrak/8QZuMFhH8FYUGpJNs9YhtuEm76pEzo4NjAYQiYM1vY8y",
+        "path": "wormhole",
+        "override_properties": {
+          "symbol": "WMATIC",
+          "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.svg"
+          }
+        }
+      },
+      {
+        "chain_name": "avalanche-fuji",
+        "base_denom": "factory/sei1dkdwdvknx0qav5cp5kw68mkn3r99m3svkyjfvkztwh97dv2lm0ksj6xrak/Fg1hDnTsAyWPVjDUN2vqjwVThwmnuEXBg2eGUGewWDUp",
+        "path": "wormhole",
+        "override_properties": {
+          "symbol": "WAVAX",
+          "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/wavax.svg"
+          }
+        }
+      },
+      {
+        "chain_name": "solana-testnet",
+        "base_denom": "factory/sei1dkdwdvknx0qav5cp5kw68mkn3r99m3svkyjfvkztwh97dv2lm0ksj6xrak/GotfBk8VUDfbqgTJgF1nhV7bfZgUxfWiwADNLKv5PEM",
+        "path": "wormhole",
+        "override_properties": {
+          "symbol": "SOL",
+          "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sol.png"
+          }
+        }
+      },
+      {
+        "chain_name": "axelar-testnet-lisbon-3",
+        "base_denom": "uausdc",
+        "path": "transfer/channel-44/uausdc",
+        "override_properties": {
+          "symbol": "AUSDC",
+          "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png"
+          }
+        }
+      },
+      {
+        "chain_name": "axelar-testnet-lisbon-3",
+        "base_denom": "wmatic-wei",
+        "path": "transfer/channel-44/wmatic-wei",
+        "override_properties": {
+          "symbol": "WMATIC",
+          "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.svg"
+          }
+        }
+      }
+    ]
+  }
+  

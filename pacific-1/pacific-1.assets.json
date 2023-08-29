@@ -1,0 +1,230 @@
+{
+    "assets": [
+      {
+        "chain_name": "pacific-1",
+        "base_denom": "usei",
+        "override_properties": {
+          "symbol": "SEI",
+          "logo_URIs": {
+            "png": "https://github.com/cosmos/chain-registry/blob/master/testnets/seitestnet2/images/sei.png"
+          }
+        }
+      },
+      {
+        "chain_name": "pacific-1",
+        "base_denom": "factory/sei1g67gjpzn53hc4qsta9jqe7yq40atuqxmuakqkg/sea",
+        "override_properties": {
+          "symbol": "SEA",
+          "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/Nova-Ratio/SEA-Image/a8d025011ef83cc610d9bb70c696af61e8d9f8cb/sea-token.png"
+          }
+        }
+      },
+      {
+        "chain_name": "axelar-dojo-1",
+        "base_denom": "uusdc",
+        "path": "transfer/channel-2/uusdc",
+        "override_properties": {
+          "symbol": "USDC.axl",
+          "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png"
+          },
+          "coingecko_id": "axlusdc"
+        }
+      },
+      {
+        "chain_name": "osmosis-1",
+        "base_denom": "uosmo",
+        "path": "transfer/channel-0/uosmo",
+        "override_properties": {
+          "symbol": "OSMO",
+          "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+          },
+          "coingecko_id": "osmosis"
+        }
+      },
+      {
+        "chain_name": "osmosis-1",
+        "base_denom": "uatom",
+        "path": "transfer/channel-0/transfer/channel-0/uatom",
+        "override_properties": {
+          "symbol": "ATOM",
+          "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+          },
+          "coingecko_id": "cosmos"
+        }
+      },
+      {
+        "chain_name": "cosmoshub-4",
+        "base_denom": "uatom",
+        "path": "transfer/channel-1/uatom",
+        "override_properties": {
+          "symbol": "ATOM",
+          "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+          },
+          "coingecko_id": "cosmos"
+        }
+      },
+      {
+        "chain_name": "ethereum",
+        "base_denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/4tLQqCLaoKKfNFuPjA9o39YbKUwhR1F8N29Tz3hEbfP2",
+        "path": "wormhole",
+        "override_properties": {
+          "symbol": "WETH",
+          "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
+          },
+          "coingecko_id": "weth"
+        }
+      },
+      {
+        "chain_name": "ethereum",
+        "base_denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/Hq4tuDzhRBnxw3tFA5n6M52NVMVcC19XggbyDiJKCD6H",
+        "path": "wormhole",
+        "override_properties": {
+          "symbol": "USDC.eth",
+          "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png"
+          },
+          "coingecko_id": "usd-coin"
+        }
+      },
+      {
+        "chain_name": "ethereum",
+        "base_denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/HktfLoADCk9mnjv7XJiN4YXK9ayE6xinLzt8wzcsR2rY",
+        "path": "wormhole",
+        "override_properties": {
+          "symbol": "USDT.eth",
+          "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdt.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdt.png"
+          },
+          "coingecko_id": "tether"
+        }
+      },
+      {
+        "chain_name": "ethereum",
+        "base_denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/7omXa4gryZ5NiBmLep7JsTtTtANCVKXwT9vbN91aS1br",
+        "path": "wormhole",
+        "override_properties": {
+          "symbol": "WBTC",
+          "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg"
+          },
+          "coingecko_id": "bitcoin"
+        }
+      },
+      {
+        "chain_name": "arbitrum",
+        "base_denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/7edDfnf4mku8So3t4Do215GNHwASEwCWrdhM5GqD51xZ",
+        "path": "wormhole",
+        "override_properties": {
+          "symbol": "USDC.arb",
+          "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png"
+          },
+          "coingecko_id": "usd-coin"
+        }
+      },
+      {
+        "chain_name": "arbitrum",
+        "base_denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/9hJDBDaxqQQhF5HhaPUykeLncBa38XQ5uoNxN3tPQu5r",
+        "path": "wormhole",
+        "override_properties": {
+          "symbol": "WETHar",
+          "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
+          },
+          "coingecko_id": "weth"
+        }
+      },
+      {
+        "chain_name": "polygon",
+        "base_denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/DUVFMY2neJdL8aE4d3stcpttDDm5aoyfGyVvm29iA9Yp",
+        "path": "wormhole",
+        "override_properties": {
+          "symbol": "USDC.matic",
+          "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png"
+          },
+          "coingecko_id": "usd-coin"
+        }
+      },
+      {
+        "chain_name": "optimism",
+        "base_denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/3VKKYtbQ9iq8f9CaZfgR6Cr3TUj6ypXPAn6kco6wjcAu",
+        "path": "wormhole",
+        "override_properties": {
+          "symbol": "USDC.op",
+          "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png"
+          },
+          "coingecko_id": "usd-coin"
+        }
+      },
+      {
+        "chain_name": "solana",
+        "base_denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/9fELvUhFo6yWL34ZaLgPbCPzdk9MD1tAzMycgH45qShH",
+        "path": "wormhole",
+        "override_properties": {
+          "symbol": "USDC.sol",
+          "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png"
+          },
+          "coingecko_id": "usd-coin"
+        }
+      },
+      {
+        "chain_name": "bsc",
+        "base_denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/3Ri4N719RQfQaudHiB9CMCYACtK3aieoz1q1Ph24VdAb",
+        "path": "wormhole",
+        "override_properties": {
+          "symbol": "USDC.bsc",
+          "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png"
+          },
+          "coingecko_id": "usd-coin"
+        }
+      },
+      {
+        "chain_name": "bsc",
+        "base_denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/9tTHn18vLnfyBvrQaia6N15zwrfRCAebZDshoPZ39ahN",
+        "path": "wormhole",
+        "override_properties": {
+          "symbol": "WETHbs",
+          "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
+          },
+          "coingecko_id": "weth"
+        }
+      },
+      {
+        "chain_name": "bsc",
+        "base_denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/871jbn9unTavWsAe83f2Ma9GJWSv6BKsyWYLiQ6z3Pva",
+        "path": "wormhole",
+        "override_properties": {
+          "symbol": "USDT.bsc",
+          "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdt.svg",
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdt.png"
+          },
+          "coingecko_id": "tether"
+        }
+      }
+    ]
+  }
+  

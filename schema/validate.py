@@ -26,3 +26,5 @@ if __name__ == "__main__":
     validate_file('./schema/chain_info.json', './chain_info.json')
     validate_file('./schema/assetlist.json', './assetlist.json')
     validate_file('./schema/ibc_info.json', './ibc_info.json')
+    validate_file('./schema/assets.json', './pacific-1/pacific-1.assets.json')
+    validate_file('./schema/assets.json', './atlantic-2/atlantic-2.assets.json')
