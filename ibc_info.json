@@ -39,10 +39,10 @@
   "atlantic-2": [
     {
       "counterparty_chain_name": "osmo-test-5",
-      "dst_channel": "channel-102",
-      "src_channel": "channel-43",
+      "dst_channel": "channel-1650",
+      "src_channel": "channel-67",
       "port_id": "transfer",
-      "client_id": "07-tendermint-79"
+      "client_id": "07-tendermint-116"
     },
     {
       "counterparty_chain_name": "axelar-testnet-lisbon-3",
