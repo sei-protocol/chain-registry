@@ -554,6 +554,172 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.svg"
       }
+    },
+    {
+      "name": "Wrapped Matic",
+      "description": "Wrapped Matic on Axelar",
+      "symbol": "WMATIC",
+      "base": "ibc/6020C0719D983DAF4D6FBAB21A305D5D318DC76FDDD7062AEE8DC41BC3384CD5",
+      "display": "wmatic",
+      "denom_units": [
+        {
+          "denom": "ibc/6020C0719D983DAF4D6FBAB21A305D5D318DC76FDDD7062AEE8DC41BC3384CD5",
+          "exponent": 0
+        },
+        {
+          "denom": "wmatic",
+          "exponent": 18
+        }
+      ],
+      "images": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.svg"
+      }
+    },
+    {
+      "name": "Stake",
+      "description": "The permissioned staking asset for Noble Chain",
+      "symbol": "STAKE",
+      "base": "ustake",
+      "display": "stake",
+      "denom_units": [
+        {
+          "denom": "ustake",
+          "exponent": 0,
+          "aliases": [
+            "microstake"
+          ]
+        },
+        {
+          "denom": "stake",
+          "exponent": 6
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/stake.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/stake.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/stake.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/stake.svg"
+        }
+      ]
+    },
+    {
+      "name": "Frienzies",
+      "description": "Frienzies are an IBC token redeemable exclusively for a physical asset issued by the Noble entity.",
+      "symbol": "FRNZ",
+      "base": "ufrienzies",
+      "display": "frienzies",
+      "denom_units": [
+        {
+          "denom": "ufrienzies",
+          "exponent": 0,
+          "aliases": [
+            "microfrienzies"
+          ]
+        },
+        {
+          "denom": "frienzies",
+          "exponent": 6
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.svg"
+        }
+      ]
+    },
+    {
+      "name": "Atom Staking Coin",
+      "description": "ATOM token on Noble",
+      "symbol": "ATOM",
+      "base": "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0",
+      "display": "atom",
+      "type_asset": "ics20",
+      "denom_units": [
+        {
+          "denom": "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0",
+          "exponent": 0
+        },
+        {
+          "denom": "atom",
+          "exponent": 6,
+          "aliases": [
+            "ATOM"
+          ]
+        }
+      ],
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "cosmoshub",
+            "base_denom": "uatom",
+            "channel_id": "channel-536"
+          },
+          "chain": {
+            "channel_id": "channel-4",
+            "path": "transfer/channel-4/uatom"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+        }
+      ]
+    },
+    {
+      "name": "USD Coin",
+      "description": "USD Coin",
+      "symbol": "USDC",
+      "base": "uusdc",
+      "display": "usdc",
+      "denom_units": [
+        {
+          "denom": "uusdc",
+          "exponent": 0,
+          "aliases": [
+            "microusdc"
+          ]
+        },
+        {
+          "denom": "usdc",
+          "exponent": 6
+        }
+      ],
+      "traces": [
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+          },
+          "provider": "Circle"
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
+        }
+      ]
     }
   ],
   "sei-devnet-3": [
