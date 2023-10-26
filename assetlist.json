@@ -556,27 +556,6 @@
       }
     },
     {
-      "name": "Wrapped Matic",
-      "description": "Wrapped Matic on Axelar",
-      "symbol": "WMATIC",
-      "base": "ibc/6020C0719D983DAF4D6FBAB21A305D5D318DC76FDDD7062AEE8DC41BC3384CD5",
-      "display": "wmatic",
-      "denom_units": [
-        {
-          "denom": "ibc/6020C0719D983DAF4D6FBAB21A305D5D318DC76FDDD7062AEE8DC41BC3384CD5",
-          "exponent": 0
-        },
-        {
-          "denom": "wmatic",
-          "exponent": 18
-        }
-      ],
-      "images": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.png",
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.svg"
-      }
-    },
-    {
       "name": "Stake",
       "description": "The permissioned staking asset for Noble Chain",
       "symbol": "STAKE",
