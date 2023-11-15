@@ -390,24 +390,24 @@
       "coingecko_id": "tether"
     },
     {
-	    "name": "PKS",
-	    "description": "Poker Kings Token",
-	    "symbol": "PKS",
-	    "base": "cw20:sei1eavtmc4y00a0ed8l9c7l0m7leesv3yetcptklv2kalz4tsgz02mqlvyea6",
-	    "display": "pks",
-  	  "denom_units": [
-  		  {
-  			  "denom": "cw20:sei1eavtmc4y00a0ed8l9c7l0m7leesv3yetcptklv2kalz4tsgz02mqlvyea6",
-  			  "exponent": 0
+      "name": "PKS",
+      "description": "Poker Kings Token",
+      "symbol": "PKS",
+      "base": "cw20:sei1eavtmc4y00a0ed8l9c7l0m7leesv3yetcptklv2kalz4tsgz02mqlvyea6",
+      "display": "PKS",
+      "denom_units": [
+        {
+          "denom": "cw20:sei1eavtmc4y00a0ed8l9c7l0m7leesv3yetcptklv2kalz4tsgz02mqlvyea6",
+          "exponent": 0
         },
         {
-          "denom": "pks",
+          "denom": "PKS",
           "exponent": 6
         }
-	    ],
-	    "images": {
-		    "svg": "https://cloudflare-ipfs.com/ipfs/QmPk6YGTMfmCpHKpb18HeASg3H2iQSd4HiGvdH8zz6ZBkM"
-	    },
+      ],
+      "images": {
+        "svg": "https://cloudflare-ipfs.com/ipfs/QmPk6YGTMfmCpHKpb18HeASg3H2iQSd4HiGvdH8zz6ZBkM"
+      },
       "coingecko_id": ""
     }
   ],
