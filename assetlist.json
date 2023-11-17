@@ -60,7 +60,8 @@
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg",
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png"
       },
-      "coingecko_id": "axlusdc"
+      "coingecko_id": "axlusdc",
+      "type_asset": "ics20"
     },
     {
       "name": "Osmosis",
@@ -82,7 +83,8 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
       },
-      "coingecko_id": "osmosis"
+      "coingecko_id": "osmosis",
+      "type_asset": "ics20"
     },
     {
       "name": "Atom (Osmosis)",
@@ -104,7 +106,8 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
       },
-      "coingecko_id": "cosmos"
+      "coingecko_id": "cosmos",
+      "type_asset": "ics20"
     },
     {
       "name": "Atom",
@@ -126,7 +129,8 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
       },
-      "coingecko_id": "cosmos"
+      "coingecko_id": "cosmos",
+      "type_asset": "ics20"
     },
     {
       "name": "Wrapped Ether (Wormhole)",
@@ -393,11 +397,11 @@
       "name": "PKS",
       "description": "Poker Kings Token",
       "symbol": "PKS",
-      "base": "cw20:sei1eavtmc4y00a0ed8l9c7l0m7leesv3yetcptklv2kalz4tsgz02mqlvyea6",
+      "base": "sei1eavtmc4y00a0ed8l9c7l0m7leesv3yetcptklv2kalz4tsgz02mqlvyea6",
       "display": "PKS",
       "denom_units": [
         {
-          "denom": "cw20:sei1eavtmc4y00a0ed8l9c7l0m7leesv3yetcptklv2kalz4tsgz02mqlvyea6",
+          "denom": "sei1eavtmc4y00a0ed8l9c7l0m7leesv3yetcptklv2kalz4tsgz02mqlvyea6",
           "exponent": 0
         },
         {
@@ -408,7 +412,7 @@
       "images": {
         "svg": "https://cloudflare-ipfs.com/ipfs/QmPk6YGTMfmCpHKpb18HeASg3H2iQSd4HiGvdH8zz6ZBkM"
       },
-      "coingecko_id": ""
+      "type_asset": "cw20"
     }
   ],
   "atlantic-2": [
@@ -553,7 +557,8 @@
       "images": {
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg",
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png"
-      }
+      },
+      "type_asset": "ics20"
     },
     {
       "name": "Wrapped Matic",
@@ -574,7 +579,8 @@
       "images": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.svg"
-      }
+      },
+      "type_asset": "ics20"
     }
   ],
   "sei-devnet-3": [
