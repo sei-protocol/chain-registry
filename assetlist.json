@@ -426,7 +426,7 @@
           "exponent": 0
         },
         {
-          "denom": "erc20/tether/usdt",
+          "denom": "USD₮",
           "exponent": 6
         }
       ],
