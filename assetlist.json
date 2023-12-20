@@ -456,7 +456,7 @@
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg",
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png"
       },
-      "coingecko_id": "usd-coin",
+      "coingecko_id": "usd-coin"
     }
   ],
   "atlantic-2": [
