@@ -41,6 +41,13 @@
       "src_channel": "channel-18",
       "port_id": "transfer",
       "client_id": "07-tendermint-146"
+    },
+    {
+      "counterparty_chain_name": "noble-1",
+      "dst_channel": "channel-39",
+      "src_channel": "channel-45",
+      "port_id": "transfer",
+      "client_id": "07-tendermint-45"
     }
   ],
   "atlantic-2": [
