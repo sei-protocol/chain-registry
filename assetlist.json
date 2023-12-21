@@ -690,6 +690,26 @@
       "images": {
         "png": "https://github.com/cosmos/chain-registry/blob/master/testnets/seitestnet2/images/sei.png"
       }
+    },
+    {
+      "name": "Mid",
+      "description": "The middest memecoin on the planet.",
+      "symbol": "MID",
+      "base": "factory/sei1q0xgrxtje0agpg6y6jy0u6pvruc62yml5e525vn7u0czm70ptusslzmzqd/mid",
+      "display": "mid",
+      "denom_units": [
+        {
+          "denom": "factory/sei1q0xgrxtje0agpg6y6jy0u6pvruc62yml5e525vn7u0czm70ptusslzmzqd/mid",
+          "exponent": 0
+        },
+        {
+          "denom": "mid",
+          "exponent": 6
+        }
+      ],
+      "images": {
+        "png": "https://i.imgur.com/cLbYDpJ.png"
+      }
     }
   ]
 }
