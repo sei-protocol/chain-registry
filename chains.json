@@ -10,12 +10,18 @@
       "provider": "Polkachu",
       "url": "https://sei-rpc.polkachu.com"
     }, {
+    "provider": "Lavender.Five Nodes",
+      "url": "https://sei-rpc.lavenderfive.com"
+    }, {
       "provider": "Brochain",
       "url": "https://sei-rpc.brocha.in"
     }],
     "rest": [{
       "provider": "Rhino",
       "url": "https://rest-sei.rhinostake.com"
+    }, {
+      "provider": "Lavender.Five Nodes",
+      "url": "https://sei-api.lavenderfive.com"
     }, {
       "provider": "Polkachu",
       "url": "https://sei-api.polkachu.com"
@@ -26,6 +32,9 @@
     "grpc": [{
       "provider": "Rhino",
       "url": "https://grpc-sei.rhinostake.com"
+    }, {
+      "provider": "Lavender.Five Nodes",
+      "url": "https://sei-grpc.lavenderfive.com"
     }, {
       "provider": "Polkachu",
       "url": "https://sei-grpc.polkachu.com:11990"
@@ -39,6 +48,9 @@
       "provider": "Rhino",
       "url": "https://rpc-sei-testnet.rhinostake.com"
     },{
+      "provider": "Lavender.Five Nodes",
+      "url": "https://testnet-sei-rpc.lavenderfive.com"
+    }, {
       "provider": "Polkachu",
       "url": "https://sei-testnet-rpc.polkachu.com"
     }],
@@ -46,6 +58,9 @@
       "provider": "Rhino",
       "url": "https://rest-sei-testnet.rhinostake.com"
     },{
+      "provider": "Lavender.Five Nodes",
+      "url": "https://testnet-sei-api.lavenderfive.com"
+    }, {
       "provider": "Polkachu",
       "url": "https://sei-testnet-api.polkachu.com"
     }],
@@ -53,6 +68,9 @@
       "provider": "Rhino",
       "url": "https://grpc-sei-testnet.rhinostake.com"
     },{
+      "provider": "Lavender.Five Nodes",
+      "url": "https://testnet-sei-grpc.lavenderfive.com"
+    }, {
       "provider": "Polkachu",
       "url": "http://sei-testnet-grpc.polkachu.com:11990"
     }],
