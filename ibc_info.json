@@ -48,6 +48,13 @@
       "src_channel": "channel-45",
       "port_id": "transfer",
       "client_id": "07-tendermint-45"
+    },
+    {
+      "counterparty_chain_name": "injective-1",
+      "dst_channel": "channel-180",
+      "src_channel": "channel-54",
+      "port_id": "transfer",
+      "client_id": "07-tendermint-64"
     }
   ],
   "atlantic-2": [
