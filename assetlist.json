@@ -21,6 +21,26 @@
       }
     },
     {
+      "name": "Sensei Dog",
+      "description": "A wise dog and a marshal arts master",
+      "symbol": "SENSEI",
+      "base": "factory/sei1ta5rkr6y2qlkj7px8w2cvear7m2822q4f4ea0m/sensei",
+      "display": "sensei",
+      "denom_units": [
+        {
+          "denom": "factory/sei1ta5rkr6y2qlkj7px8w2cvear7m2822q4f4ea0m/sensei",
+          "exponent": 0
+        },
+        {
+          "denom": "sensei",
+          "exponent": 6
+        }
+      ],
+      "images": {
+        "png": "https://i.ibb.co/NyFFb2N/Sensei-Dog.png"
+      }
+    },
+    {
       "name": "SEIYAN",
       "description": "Sei's main memecoin",
       "symbol": "SEIYAN",
