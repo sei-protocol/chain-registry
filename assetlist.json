@@ -40,7 +40,28 @@
         "svg": "https://media.discordapp.net/attachments/1155506336746962985/1186703319197036604/seiyanlogo.png?ex=65943697&is=6581c197&hm=305f472ac496930ded387b6bba3268d1aa1b5ebc64cccfd47b50ed27d585dfb9&=&format=webp&quality=lossless"
       },
       "type_asset": "cw20"
-    },   
+    },
+    {
+      "name": "SEIPUNIA",
+      "description": " THE SEI COMMUNITY TOKEN",
+      "symbol": "PUNIA",
+      "base": "sei1dt3482zk86pma94xreahkcaqt233wwj8h9kwz244hu93m5cgqensx5lv6f",
+      "display": "SEIPUNIA",
+      "denom_units": [
+        {
+          "denom": "sei1dt3482zk86pma94xreahkcaqt233wwj8h9kwz244hu93m5cgqensx5lv6f",
+          "exponent": 0
+        },
+        {
+          "denom": "SEIPUNIA",
+          "exponent": 6
+        }
+      ],
+      "images": {
+        "png": "https://seipunia.com/assets/images/PUNIA-1.png"
+      },
+      "type_asset": "cw20"
+    }, 
     {
       "name": "SEA",
       "description": "SeaSwap Token",
