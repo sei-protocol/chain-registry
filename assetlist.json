@@ -42,18 +42,18 @@
       "type_asset": "cw20"
     },
     {
-      "name": "SEIPUNIA",
-      "description": " THE SEI COMMUNITY TOKEN",
-      "symbol": "PUNIA",
-      "base": "sei1dt3482zk86pma94xreahkcaqt233wwj8h9kwz244hu93m5cgqensx5lv6f",
-      "display": "SEIPUNIA",
+      "name": "SeiPunia",
+      "description": "PUNIA, THE SEI COMMUNITY TOKEN. Inspired by Jay, one of the co-founders of SEI.",
+      "symbol": "Punia",
+      "base": "sei1v59mrw485axfgzwtxq8m9me59hjz04h9umlpp99wy9z4xkw3nqdql0nt53",
+      "display": "SeiPunia",
       "denom_units": [
         {
-          "denom": "sei1dt3482zk86pma94xreahkcaqt233wwj8h9kwz244hu93m5cgqensx5lv6f",
+          "denom": "sei1v59mrw485axfgzwtxq8m9me59hjz04h9umlpp99wy9z4xkw3nqdql0nt53",
           "exponent": 0
         },
         {
-          "denom": "SEIPUNIA",
+          "denom": "SeiPunia",
           "exponent": 6
         }
       ],
