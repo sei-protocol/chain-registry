@@ -710,6 +710,26 @@
       "images": {
         "png": "https://i.imgur.com/cLbYDpJ.png"
       }
+    },
+    {
+      "name": "JayAndJeff",
+      "description": "Just a Fan token inspired by Jay and Jeff, the founder of SEI.",
+      "symbol": "JAJ",
+      "base": "sei1v9lyg39la4aq60tktgteljjzt28400uumgs3j039gqygd8kcfepqhns7az",
+      "display": "JAJ",
+      "denom_units": [
+        {
+          "denom": "sei1v9lyg39la4aq60tktgteljjzt28400uumgs3j039gqygd8kcfepqhns7az",
+          "exponent": 0
+        },
+        {
+          "denom": "JAJ",
+          "exponent": 6
+        }
+      ],
+      "images": {
+        "png":"https://raw.githubusercontent.com/JAJSeiDev/JayAndJeff/main/JayAndJeff.png"
+      }
     }
   ]
 }
