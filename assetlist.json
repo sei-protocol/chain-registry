@@ -20,6 +20,71 @@
         "png": "https://github.com/cosmos/chain-registry/blob/master/testnets/seitestnet2/images/sei.png"
       }
     },
+        {
+      "name": "SEIGA",
+      "description": "SEIGA: Combining SEI and SEGA. The first retro memecoin on SEI.",
+      "symbol": "SEIGA",
+      "base": "sei1t9qy9n068qhcs4a2mvz3wqwmxdfmjdt86f8j7nu0tzae4jllpwzs2h8sl6",
+      "display": "SEIGA",
+      "denom_units": [
+        {
+          "denom": "sei1t9qy9n068qhcs4a2mvz3wqwmxdfmjdt86f8j7nu0tzae4jllpwzs2h8sl6",
+          "exponent": 0
+        },
+        {
+          "denom": "SEIGA",
+          "exponent": 6
+        }
+      ],
+      "images": {
+        "png": "https://i.ibb.co/4JnJtfv/seiga.jpg"
+      },
+      "coingecko_id":"seiga",
+      "type_asset": "cw20"
+    },
+    {
+      "name": "SEITAN",
+      "description": "Seitan on SEI",
+      "symbol": "SEITAN",
+      "base": "sei195ldtvs9e44jzsl6tauknqcxmspluf0vvqxplhxayea9pu4wx5gspjl909",
+      "display": "SEITAN",
+      "denom_units": [
+        {
+          "denom": "sei195ldtvs9e44jzsl6tauknqcxmspluf0vvqxplhxayea9pu4wx5gspjl909",
+          "exponent": 0
+        },
+        {
+          "denom": "SEITAN",
+          "exponent": 6
+        }
+      ],
+      "images": {
+        "png": "https:://pbs.twimg.com/profile_images/1739851360546258944/jB3ZF71q_400x400.jpg"
+      },
+      "type_asset": "cw20"
+    },
+    {
+      "name": "COOK",
+      "description": "Seitan on SEI",
+      "symbol": "COOK",
+      "base": "sei1pvz89hltquwe6qdhnqwmxxvasayzn4dctkwehes2zt888c7syffszt3j56",
+      "display": "COOK",
+      "denom_units": [
+        {
+          "denom": "sei1pvz89hltquwe6qdhnqwmxxvasayzn4dctkwehes2zt888c7syffszt3j56",
+          "exponent": 0
+        },
+        {
+          "denom": "COOK",
+          "exponent": 6
+        }
+      ],
+      "images": {
+        "png": "https://www.cookonsei.com/gallery/COOKonSEI.png"
+      },
+      "coingecko_id":"cook-3",
+      "type_asset": "cw20"
+    },
     {
       "name": "SEIYAN",
       "description": "Sei's main memecoin",
