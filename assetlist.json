@@ -60,7 +60,28 @@
         "svg": "https://media.discordapp.net/attachments/1155506336746962985/1186703319197036604/seiyanlogo.png?ex=65943697&is=6581c197&hm=305f472ac496930ded387b6bba3268d1aa1b5ebc64cccfd47b50ed27d585dfb9&=&format=webp&quality=lossless"
       },
       "type_asset": "cw20"
-    },   
+    },
+    {
+      "name": "SEIMOYED",
+      "description": "The fluffiest dog on Sei",
+      "symbol": "SEIMOYED",
+      "base": "sei1uguzgzldm6rnmvrzuvkze02zr2hm2jw5374dwzm6666zucml6hcssqt4c6",
+      "display": "SEIMOYED",
+      "denom_units": [
+        {
+          "denom": "sei1uguzgzldm6rnmvrzuvkze02zr2hm2jw5374dwzm6666zucml6hcssqt4c6",
+          "exponent": 0
+        },
+        {
+          "denom": "SEIMOYED",
+          "exponent": 6
+        }
+      ],
+      "images": {
+        "svg": "https://seimoyed.xyz/wp-content/uploads/2023/12/2023-12-28-10.49.45.svg"
+      },
+      "type_asset": "cw20"
+    },
     {
       "name": "SEA",
       "description": "SeaSwap Token",
