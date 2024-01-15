@@ -62,6 +62,26 @@
       "type_asset": "cw20"
     },   
     {
+      "name": "iSEI",
+      "description": "Liquid Staking Sei via Silo",
+      "symbol": "iSEI",
+      "base": "factory/sei1e3gttzq5e5k49f9f5gzvrl0rltlav65xu6p9xc0aj7e84lantdjqp7cncc/isei",
+      "display": "iSEI",
+      "denom_units": [
+        {
+          "denom": "factory/sei1e3gttzq5e5k49f9f5gzvrl0rltlav65xu6p9xc0aj7e84lantdjqp7cncc/isei",
+          "exponent": 0
+        },
+        {
+          "denom": "iSEI",
+          "exponent": 6
+        }
+      ],
+      "images": {
+        "png": "https://i.imgur.com/VJ9FVyN.png"
+      }
+    },
+    {
       "name": "SEA",
       "description": "SeaSwap Token",
       "symbol": "SEA",
