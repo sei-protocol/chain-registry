@@ -730,6 +730,28 @@
       "images": {
         "png": "https://github.com/cosmos/chain-registry/blob/master/testnets/seitestnet2/images/sei.png"
       }
+    },
+    {
+      "name": "Wosmo",
+      "description": "The first memecoin on osmosis",
+      "symbol": "WOSMO",
+      "base": "ibc/AB7C92666DE8C7A977666B8080CABF0127B652B9D40F7251E6914DE942D9942B",
+      "display": "osmo",
+      "denom_units": [
+        {
+          "denom": "ibc/AB7C92666DE8C7A977666B8080CABF0127B652B9D40F7251E6914DE942D9942B",
+          "exponent": 0
+        },
+        {
+          "denom": "osmo",
+          "exponent": 6
+        }
+      ],
+      "images": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png"
+      },
+      "coingecko_id": "",
+      "type_asset": "ics20"
     }
   ]
 }
