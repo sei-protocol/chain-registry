@@ -1,28 +1,46 @@
 {
   "extensions": [
     {
+      "name": "Compass Wallet",
+      "identifier": "compass",
+      "icon": "",
+      "url": "https://compasswallet.io/",
+      "capabilities": ["native", "evm"]
+    },
+    {
+      "name": "Fin Wallet",
+      "identifier": "fin",
+      "icon": "",
+      "url": "https://finwallet.com/",
+      "capabilities": ["native", "evm"]
+    },
+    {
+      "name": "MetaMask",
+      "identifier": "metamask",
+      "icon": "",
+      "url": "https://www.keplr.app",
+      "capabilities": ["evm"]
+    },
+    {
       "name": "Keplr Wallet",
       "identifier": "keplr",
       "icon": "",
-      "url": "https://www.keplr.app"
+      "url": "https://www.keplr.app",
+      "capabilities": ["native"]
     },
     {
       "name": "Leap Wallet",
       "identifier": "leap",
       "icon": "",
-      "url": "https://www.leapwallet.io/cosmos"
-    },
-    {
-      "name": "Falcon Wallet",
-      "identifier": "falcon",
-      "icon": "",
-      "url": "https://www.falconwallet.app"
+      "url": "https://www.leapwallet.io/cosmos",
+      "capabilities": ["native"]
     },
     {
       "name": "Coin98 Wallet",
       "identifier": "coin98",
       "icon": "",
-      "url": "https://coin98.com"
+      "url": "https://coin98.com",
+      "capabilities": ["native"]
     }
   ]
 }
