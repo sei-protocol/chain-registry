@@ -1,0 +1,10 @@
+{
+  "arctic-1": [
+    { "provider": "NIMA", "url": "https://sei-faucet.nima.enterprises/" },
+    { "provider": "FAUCETME", "url": "https://sei-evm.faucetme.pro/" }
+  ],
+  "atlantic-2": [
+    { "provider": "Sei App", "url": "https://atlantic-2.app.sei.io/faucet" },
+    { "provider": "FAUCETME", "url": "https://sei.faucetme.pro/" }
+  ]
+}
