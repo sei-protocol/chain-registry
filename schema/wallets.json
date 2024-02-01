@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "extensions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/wallet"
+      }
+    }
+  },
+  "required": ["extensions"],
+  "definitions": {
+    "wallet": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "identifier": {
+          "type": "string"
+        },
+        "icon": {
+          "type": "string",
+          "format": "uri"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "capabilities": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["native", "evm"]
+          },
+          "minItems": 1
+        }
+      },
+      "required": ["name", "identifier", "url", "capabilities"],
+      "additionalProperties": false
+    }
+  }
+}

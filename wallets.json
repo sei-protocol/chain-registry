@@ -1,28 +1,46 @@
 {
   "extensions": [
     {
+      "name": "Compass Wallet",
+      "identifier": "compass",
+      "icon": "https://raw.githubusercontent.com/sei-protocol/chain-registry/main/images/compass-logo.jpeg",
+      "url": "https://compasswallet.io/",
+      "capabilities": ["native", "evm"]
+    },
+    {
+      "name": "Fin Wallet",
+      "identifier": "fin",
+      "icon": "https://raw.githubusercontent.com/sei-protocol/chain-registry/main/images/fin-logo.png",
+      "url": "https://finwallet.com/",
+      "capabilities": ["native", "evm"]
+    },
+    {
+      "name": "MetaMask",
+      "identifier": "metamask",
+      "icon": "https://raw.githubusercontent.com/sei-protocol/chain-registry/main/images/metamask-logo.svg",
+      "url": "https://www.keplr.app",
+      "capabilities": ["evm"]
+    },
+    {
       "name": "Keplr Wallet",
       "identifier": "keplr",
-      "icon": "",
-      "url": "https://www.keplr.app"
+      "icon": "https://raw.githubusercontent.com/sei-protocol/chain-registry/main/images/keplr-logo.png",
+      "url": "https://www.keplr.app",
+      "capabilities": ["native"]
     },
     {
       "name": "Leap Wallet",
       "identifier": "leap",
-      "icon": "",
-      "url": "https://www.leapwallet.io/cosmos"
-    },
-    {
-      "name": "Falcon Wallet",
-      "identifier": "falcon",
-      "icon": "",
-      "url": "https://www.falconwallet.app"
+      "icon": "https://raw.githubusercontent.com/sei-protocol/chain-registry/main/images/leap-logo.png",
+      "url": "https://www.leapwallet.io/cosmos",
+      "capabilities": ["native"]
     },
     {
       "name": "Coin98 Wallet",
       "identifier": "coin98",
-      "icon": "",
-      "url": "https://coin98.com"
+      "icon": "https://raw.githubusercontent.com/sei-protocol/chain-registry/main/images/coin98-logo.svg",
+      "url": "https://coin98.com",
+      "capabilities": ["native"]
     }
   ]
 }
