@@ -10,9 +10,6 @@
     },
     "arctic-1": {
       "$ref": "#/definitions/chain"
-    },
-    "sei-devnet-3": {
-      "$ref": "#/definitions/chain"
     }
   },
   "additionalProperties": false,
@@ -27,10 +24,6 @@
           "type": "string",
           "enum": ["mainnet", "testnet", "devnet"]
         },
-        "slip44": {
-          "type": "integer",
-          "minimum": 0
-        },
         "rpc": {
           "type": "array",
           "items": { "$ref": "#/definitions/provider" }
@@ -43,9 +36,21 @@
           "type": "array",
           "items": { "$ref": "#/definitions/provider" }
         },
+        "evm_rpc": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/provider" }
+        },
+        "evm_ws": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/provider" }
+        },
         "explorers": {
           "type": "array",
           "items": { "$ref": "#/definitions/explorer" }
+        },
+        "faucets": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/faucet" }
         }
       },
       "additionalProperties": false
@@ -67,6 +72,20 @@
         "tx_page": { "type": "string" }
       },
       "required": ["name", "url"],
+      "additionalProperties": false
+    },
+    "faucet": {
+      "type": "object",
+      "properties": {
+        "provider": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": ["provider", "url"],
       "additionalProperties": false
     }
   }

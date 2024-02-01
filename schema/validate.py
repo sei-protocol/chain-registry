@@ -26,5 +26,4 @@ if __name__ == "__main__":
     validate_file('./schema/chain_info.json', './chain_info.json')
     validate_file('./schema/assetlist.json', './assetlist.json')
     validate_file('./schema/ibc_info.json', './ibc_info.json')
-    validate_file('./schema/faucets.json', './faucets.json')
     validate_file('./schema/wallets.json', './wallets.json')
