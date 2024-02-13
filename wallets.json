@@ -18,7 +18,7 @@
       "name": "MetaMask",
       "identifier": "metamask",
       "icon": "https://raw.githubusercontent.com/sei-protocol/chain-registry/main/images/metamask-logo.svg",
-      "url": "https://www.keplr.app",
+      "url": "https://www.metamask.io/",
       "capabilities": ["evm"]
     },
     {
