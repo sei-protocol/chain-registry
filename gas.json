@@ -1,7 +1,7 @@
 {
   "pacific-1": {
     "denom": "usei",
-    "min_gas_price": 0.02,
+    "min_gas_price": 0.1,
     "module_adjustments": {
       "dex": {
         "sudo_gas_price": 0.01,
