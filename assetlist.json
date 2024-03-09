@@ -518,7 +518,28 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png"
       },
       "coingecko_id": "usd-coin"
-    }
+    },
+    {
+      "name": "Basket",
+      "description": "BSKT tracks the top assets across the crypto ecosystem, eliminating the need to track and analyse individual coins.",
+      "symbol": "BSKT",
+      "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/FM2av5h53R9EgDZZ8KXr5ujodp9mHZGRn9W3YLorhbsV",
+      "display": "bskt",
+      "denom_units": [
+        {
+          "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/FM2av5h53R9EgDZZ8KXr5ujodp9mHZGRn9W3YLorhbsV",
+          "exponent": 0
+        },
+        {
+          "denom": "bskt",
+          "exponent": 5
+        }
+      ],
+      "images": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/bskt.png"
+      },
+       "coingecko_id": "basket"
+    },
   ],
   "atlantic-2": [
     {
