@@ -523,11 +523,11 @@
       "name": "OWL",
       "description": "The native token for Seifty Protocol.",
       "symbol": "OWL",
-      "base": "sei1vv2e34rxrra95udgqpp7z7d2p4e5jqksgkmutz0hc8z56nxafzgs738u02",
+      "base": "sei1hwj2uyrqf508skvwuknautzey5heqz88rkf3hkpepurx0rnx4zvsvvt62t",
       "display": "OWL",
       "denom_units": [
         {
-          "denom": "sei1vv2e34rxrra95udgqpp7z7d2p4e5jqksgkmutz0hc8z56nxafzgs738u02",
+          "denom": "sei1hwj2uyrqf508skvwuknautzey5heqz88rkf3hkpepurx0rnx4zvsvvt62t",
           "exponent": 0
         },
         {
@@ -536,8 +536,7 @@
         }
       ],
       "images": {
-        "svg": "https://fuchsia-vague-hookworm-215.mypinata.cloud/ipfs/QmRoRnLTfu9iPkqHqB75Qt5m8tMoymSwGCG9R47WtwvnDA",
-        "png": "https://fuchsia-vague-hookworm-215.mypinata.cloud/ipfs/QmTTH7sEokEPfap9Y9DC4wb3i2pHNf79XAzHj4Dq7jdrUG"
+        "png": "https://fuchsia-vague-hookworm-215.mypinata.cloud/ipfs/QmSaWkz2WmAd1WjbUwcta5LPfQuqM7mBe5dHzu9PLJQf3k"
       },
       "type_asset": "cw20"
     }
