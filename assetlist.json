@@ -520,6 +520,27 @@
       "coingecko_id": "usd-coin"
     },
     {
+      "name": "OWLv1",
+      "description": "This token should not be traded and is no longer supported by Seifty Protocol. The v1 native token for Seifty Protocol.",
+      "symbol": "OWLv1",
+      "base": "sei1vv2e34rxrra95udgqpp7z7d2p4e5jqksgkmutz0hc8z56nxafzgs738u02",
+      "display": "OWLv1",
+      "denom_units": [
+        {
+          "denom": "sei1vv2e34rxrra95udgqpp7z7d2p4e5jqksgkmutz0hc8z56nxafzgs738u02",
+          "exponent": 0
+        },
+        {
+          "denom": "OWLv1",
+          "exponent": 6
+        }
+      ],
+      "images": {
+        "png": "https://raw.githubusercontent.com/Seiftyprotocol/assets/main/Ground-breaking-Large.png"
+      },
+      "type_asset": "cw20"
+    },
+    {
       "name": "OWL",
       "description": "The native token for Seifty Protocol.",
       "symbol": "OWL",
