@@ -536,7 +536,7 @@
         }
       ],
       "images": {
-        "png": "https://fuchsia-vague-hookworm-215.mypinata.cloud/ipfs/QmSaWkz2WmAd1WjbUwcta5LPfQuqM7mBe5dHzu9PLJQf3k"
+        "png": "https://raw.githubusercontent.com/Seiftyprotocol/assets/main/seiftyprotocol-minified.png"
       },
       "type_asset": "cw20"
     }
