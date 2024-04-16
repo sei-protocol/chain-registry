@@ -80,5 +80,13 @@
       "client_id": "07-tendermint-117"
     }
   ],
-  "arctic-1": []
+  "arctic-1": [
+    {
+      "counterparty_chain_name": "axelar-testnet-lisbon-3",
+      "dst_channel": "channel-467",
+      "src_channel": "channel-0",
+      "port_id": "transfer",
+      "client_id": "07-tendermint-0"
+    }
+  ]
 }
