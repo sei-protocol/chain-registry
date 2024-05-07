@@ -5,7 +5,7 @@
     "rpc": [
       {
         "provider": "Rhino",
-        "url": "https://rpc-sei.rhinostake.com"
+        "url": "https://rpc.sei-apis.com"
       },
       {
         "provider": "Polkachu",
@@ -23,7 +23,7 @@
     "rest": [
       {
         "provider": "Rhino",
-        "url": "https://rest-sei.rhinostake.com"
+        "url": "https://rest.sei-apis.com"
       },
       {
         "provider": "Lavender.Five Nodes",
@@ -41,7 +41,7 @@
     "grpc": [
       {
         "provider": "Rhino",
-        "url": "https://grpc-sei.rhinostake.com"
+        "url": "https://grpc.sei-apis.com"
       },
       {
         "provider": "Lavender.Five Nodes",
@@ -60,7 +60,7 @@
     "rpc": [
       {
         "provider": "Rhino",
-        "url": "https://rpc-sei-testnet.rhinostake.com"
+        "url": "https://rpc-testnet.sei-apis.com"
       },
       {
         "provider": "Lavender.Five Nodes",
@@ -74,7 +74,7 @@
     "rest": [
       {
         "provider": "Rhino",
-        "url": "https://rest-sei-testnet.rhinostake.com"
+        "url": "https://rest-testnet.sei-apis.com"
       },
       {
         "provider": "Lavender.Five Nodes",
@@ -88,7 +88,7 @@
     "grpc": [
       {
         "provider": "Rhino",
-        "url": "https://grpc-sei-testnet.rhinostake.com"
+        "url": "https://grpc-testnet.sei-apis.com"
       },
       {
         "provider": "Lavender.Five Nodes",
@@ -97,6 +97,18 @@
       {
         "provider": "Polkachu",
         "url": "http://sei-testnet-grpc.polkachu.com:11990"
+      }
+    ],
+    "evm_rpc": [
+      {
+        "provider": "Rhino",
+        "url": "https://evm-rpc-testnet.sei-apis.com"
+      }
+    ],
+    "evm_ws": [
+      {
+        "provider": "Rhino",
+        "url": "wss://evm-ws-testnet.sei-apis.com"
       }
     ],
     "explorers": [
@@ -132,6 +144,12 @@
       {
         "provider": "Sei",
         "url": "https://rest.arctic-1.seinetwork.io/"
+      }
+    ],
+    "grpc": [
+      {
+        "provider": "Rhino",
+        "url": "https://grpc-arctic-1.sei-apis.com"
       }
     ],
     "evm_rpc": [
