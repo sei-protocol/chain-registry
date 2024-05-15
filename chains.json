@@ -52,7 +52,13 @@
         "url": "https://sei-grpc.polkachu.com:11990"
       }
     ],
-    "explorers": []
+    "explorers": [
+      {
+        "name": "explorers-guru",
+        "url": "https://sei.explorers.guru",
+        "tx_page": "https://sei.explorers.guru/tx/${txHash}"
+      }
+    ]
   },
   "atlantic-2": {
     "chainId": "atlantic-2",
@@ -114,8 +120,8 @@
     "explorers": [
       {
         "name": "explorers-guru",
-        "url": "https://sei.explorers.guru",
-        "tx_page": "https://sei.explorers.guru/tx/${txHash}"
+        "url": "https://testnet.sei.explorers.guru",
+        "tx_page": "https://testnet.sei.explorers.guru/tx/${txHash}"
       }
     ],
     "faucets": [
