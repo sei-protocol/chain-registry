@@ -23,12 +23,12 @@
   },
   "arctic-1": {
     "denom": "usei",
-    "min_gas_price": 0.02,
+    "min_gas_price": 0.08,
     "module_adjustments": {
       "dex": {
-        "sudo_gas_price": 0.01,
-        "order_placement": 55000,
-        "order_cancellation": 55000
+        "sudo_gas_price": 0.4,
+        "order_placement": 13750,
+        "order_cancellation": 13250
       }
     }
   },
