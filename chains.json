@@ -52,6 +52,18 @@
         "url": "https://sei-grpc.polkachu.com:11990"
       }
     ],
+    "evm_rpc": [
+      {
+        "provider": "Rhino",
+        "url": "https://evm-rpc.sei-apis.com"
+      }
+    ],
+    "evm_ws": [
+      {
+        "provider": "Rhino",
+        "url": "wss://evm-ws.sei-apis.com"
+      }
+    ],
     "explorers": []
   },
   "atlantic-2": {
