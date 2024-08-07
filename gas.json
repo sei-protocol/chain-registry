@@ -12,12 +12,12 @@
   },
   "atlantic-2": {
     "denom": "usei",
-    "min_gas_price": 0.08,
+    "min_gas_price": 0.02,
     "module_adjustments": {
       "dex": {
-        "sudo_gas_price": 0.4,
-        "order_placement": 13750,
-        "order_cancellation": 13250
+        "sudo_gas_price": 0.1,
+        "order_placement": 55000,
+        "order_cancellation": 53000
       }
     }
   },
