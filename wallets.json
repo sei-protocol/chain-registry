@@ -26,7 +26,7 @@
       "identifier": "keplr",
       "icon": "https://raw.githubusercontent.com/sei-protocol/chain-registry/main/images/keplr-logo.png",
       "url": "https://www.keplr.app",
-      "capabilities": ["native"]
+      "capabilities": ["native", "evm"]
     },
     {
       "name": "Leap Wallet",
