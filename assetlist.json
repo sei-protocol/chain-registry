@@ -41,6 +41,27 @@
       }
     },
     {
+      "name": "AKITAAAAAA",
+      "description": "You want mascot? Here a mascot",
+      "symbol": "AAAAAA",
+      "base": "sei1vw6rxcg0kczy8728phdgxpuw78za2h9lgm4h7q0ughw364yz7luq26tchc",
+      "display": "aaaaaa",
+      "denom_units": [
+        {
+          "denom": "sei1vw6rxcg0kczy8728phdgxpuw78za2h9lgm4h7q0ughw364yz7luq26tchc",
+          "exponent": 0
+        },
+        {
+          "denom": "AAAAAA",
+          "exponent": 6
+        }
+      ],
+      "images": {
+        "svg": "https://i.ibb.co/jv7MKrZ/akita-transparent.png"
+      },
+      "type_asset": "cw20"
+    },    
+    {
       "name": "SEIYAN",
       "description": "Sei's main memecoin",
       "symbol": "SEIYAN",
@@ -57,7 +78,7 @@
         }
       ],
       "images": {
-        "svg": "https://media.discordapp.net/attachments/1155506336746962985/1186703319197036604/seiyanlogo.png?ex=65943697&is=6581c197&hm=305f472ac496930ded387b6bba3268d1aa1b5ebc64cccfd47b50ed27d585dfb9&=&format=webp&quality=lossless"
+        "svg": "https://i.ibb.co/WkDdB9x/seiyanlogomain.png"
       },
       "type_asset": "cw20"
     },   
