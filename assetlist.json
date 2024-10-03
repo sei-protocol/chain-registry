@@ -733,3 +733,31 @@
     }
   ]
 }
+
+  ]
+}
+{
+  "Name": "Seis AI",
+  "description": "Top Secret AI reasoning technology memecoin, more than a meme",
+  "symbol": "SEIS",
+      "base": "0xE94a7c93A00B12E803166D8e355F617B920DD48e",
+      "display": "SEIS",
+      "denom_units": [
+          {
+              "denom": "0xE94a7c93A00B12E803166D8e355F617B920DD48e",
+              "exponent": 0
+          },
+          {
+              "denom": "SEIS",
+              "exponent": 18
+          }
+      ],
+      "images": {
+        "png": "https://github.com/seisaicoin/SEIS/blob/main/SEIS%20transparant%20logo%20BEST%20ONLY%20PNG%20CLEAR.png?raw=true"
+      },
+"type_asset": "sdk.coin"
+    }
+  ]
+
+
+
