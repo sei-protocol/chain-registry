@@ -56,12 +56,20 @@
       {
         "provider": "Rhino",
         "url": "https://evm-rpc.sei-apis.com"
+      },
+      {
+        "provider": "Quiknode",
+        "url": "https://black-dark-breeze.sei-pacific.quiknode.pro"
       }
     ],
     "evm_ws": [
       {
         "provider": "Rhino",
         "url": "wss://evm-ws.sei-apis.com"
+      },
+      {
+        "provider": "Quiknode",
+        "url": "wss://black-dark-breeze.sei-pacific.quiknode.pro"
       }
     ],
     "explorers": []
@@ -115,7 +123,7 @@
       {
         "provider": "Rhino",
         "url": "https://evm-rpc-testnet.sei-apis.com"
-      }
+      },
     ],
     "evm_ws": [
       {
