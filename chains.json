@@ -18,6 +18,14 @@
       {
         "provider": "Brochain",
         "url": "https://sei-rpc.brocha.in"
+      },
+      {
+        "provider": "Stingray",
+        "url": "https://rpc-sei.stingray.plus"
+      },
+      {
+        "provider": "kjnodes",
+        "url": "https://sei.rpc.kjnodes.com"
       }
     ],
     "rest": [
@@ -36,6 +44,14 @@
       {
         "provider": "Brochain",
         "url": "https://sei-rest.brocha.in"
+      },
+      {
+        "provider": "Stingray",
+        "url": "https://api-sei.stingray.plus"
+      },
+      {
+        "provider": "kjnodes",
+        "url": "https://sei.api.kjnodes.com"
       }
     ],
     "grpc": [
@@ -80,7 +96,13 @@
         "url": "wss://sei.drpc.org"
       }
     ],
-    "explorers": []
+    "explorers": [
+      {
+        "name": "Seitrace",
+        "url": "https://seitrace.com/",
+        "tx_page": "https://seitrace.com/tx/${txHash}?chain=pacific-1"
+      }
+    ]
   },
   "atlantic-2": {
     "chainId": "atlantic-2",
@@ -91,12 +113,12 @@
         "url": "https://rpc-testnet.sei-apis.com"
       },
       {
-        "provider": "Lavender.Five Nodes",
-        "url": "https://testnet-sei-rpc.lavenderfive.com"
-      },
-      {
         "provider": "Polkachu",
         "url": "https://sei-testnet-rpc.polkachu.com"
+      },
+      {
+        "provider": "Sei",
+        "url": "https://rpc.atlantic-2.seinetwork.io"
       }
     ],
     "rest": [
@@ -105,22 +127,18 @@
         "url": "https://rest-testnet.sei-apis.com"
       },
       {
-        "provider": "Lavender.Five Nodes",
-        "url": "https://testnet-sei-api.lavenderfive.com"
-      },
-      {
         "provider": "Polkachu",
         "url": "https://sei-testnet-api.polkachu.com"
+      },
+      {
+        "provider": "Sei",
+        "url": "https://rest.atlantic-2.seinetwork.io"
       }
     ],
     "grpc": [
       {
         "provider": "Rhino",
         "url": "https://grpc-testnet.sei-apis.com"
-      },
-      {
-        "provider": "Lavender.Five Nodes",
-        "url": "https://testnet-sei-grpc.lavenderfive.com"
       },
       {
         "provider": "Polkachu",
@@ -151,12 +169,18 @@
       {
         "name": "explorers-guru",
         "url": "https://sei.explorers.guru",
-        "tx_page": "https://sei.explorers.guru/tx/${txHash}"
+        "tx_page": "https://sei.explorers.guru/tx/${txHash}?chain=atlantic-2"
       }
     ],
     "faucets": [
-      { "provider": "Sei App", "url": "https://atlantic-2.app.sei.io/faucet" },
-      { "provider": "FAUCETME", "url": "https://sei.faucetme.pro/" }
+      { 
+        "provider": "Sei App", 
+        "url": "https://atlantic-2.app.sei.io/faucet" 
+      },
+      { 
+        "provider": "FAUCETME", 
+        "url": "https://sei.faucetme.pro/" 
+      }
     ]
   },
   "arctic-1": {
@@ -217,12 +241,18 @@
       {
         "name": "Seitrace",
         "url": "https://seitrace.com/",
-        "tx_page": "https://seitrace.com/tx/${txHash}"
+        "tx_page": "https://seitrace.com/tx/${txHash}?chain=arctic-1"
       }
     ],
     "faucets": [
-      { "provider": "NIMA", "url": "https://sei-faucet.nima.enterprises/" },
-      { "provider": "FAUCETME", "url": "https://sei-evm.faucetme.pro/" }
+      { 
+        "provider": "NIMA", 
+        "url": "https://sei-faucet.nima.enterprises/" 
+      },
+      { 
+        "provider": "FAUCETME", 
+        "url": "https://sei-evm.faucetme.pro/" 
+      }
     ]
   }
 }
