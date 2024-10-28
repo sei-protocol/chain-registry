@@ -26,6 +26,14 @@
       {
         "provider": "kjnodes",
         "url": "https://sei.rpc.kjnodes.com"
+      },
+      {
+        "provider": "Allnodes",
+        "url": "https://sei-rpc.publicnode.com:443"
+      },
+      {
+        "provider": "1RPC",
+        "url": "https://1rpc.io/sei-rpc"
       }
     ],
     "rest": [
@@ -52,6 +60,14 @@
       {
         "provider": "kjnodes",
         "url": "https://sei.api.kjnodes.com"
+      },
+      {
+        "provider": "Allnodes",
+        "url": "https://sei-rest.publicnode.com"
+      },
+      {
+        "provider": "1RPC",
+        "url": "https://1rpc.io/sei-lcd"
       }
     ],
     "grpc": [
@@ -66,6 +82,10 @@
       {
         "provider": "Polkachu",
         "url": "https://sei-grpc.polkachu.com:11990"
+      },
+      {
+        "provider": "Allnodes",
+        "url": "https://sei-grpc.publicnode.com:443"
       }
     ],
     "evm_rpc": [
@@ -80,7 +100,7 @@
       {
         "provider": "dRPC",
         "url": "https://sei.drpc.org"
-      }
+      },
     ],
     "evm_ws": [
       {
@@ -94,14 +114,19 @@
       {
         "provider": "dRPC",
         "url": "wss://sei.drpc.org"
-      }
+      },
     ],
     "explorers": [
       {
         "name": "Seitrace",
         "url": "https://seitrace.com/",
         "tx_page": "https://seitrace.com/tx/${txHash}?chain=pacific-1"
-      }
+      },
+      {
+        "name": "Seistream",
+        "url": "https://seistream.app/",
+        "tx_page": "https://seistream.app/${txHash}"
+      },
     ]
   },
   "atlantic-2": {
@@ -167,10 +192,20 @@
     ],
     "explorers": [
       {
+        "name": "Seitrace",
+        "url": "https://seitrace.com/",
+        "tx_page": "https://seitrace.com/tx/${txHash}?chain=atlantic-2"
+      },
+      {
         "name": "explorers-guru",
         "url": "https://sei.explorers.guru",
         "tx_page": "https://sei.explorers.guru/tx/${txHash}?chain=atlantic-2"
-      }
+      },
+      {
+        "name": "Seistream",
+        "url": "https://testnet.seistream.app/",
+        "tx_page": "https://testnet.seistream.app/${txHash}"
+      },
     ],
     "faucets": [
       { 
@@ -220,6 +255,10 @@
       {
         "provider": "Sei",
         "url": "https://evm-rpc.arctic-1.seinetwork.io/"
+      },
+      {
+        "provider": "dRPC",
+        "url": "https://sei-devnet.drpc.org"
       }
     ],
     "evm_ws": [
@@ -230,19 +269,23 @@
       {
         "provider": "Sei",
         "url": "wss://evm-ws.arctic-1.seinetwork.io"
+      },
+      {
+        "provider": "dRPC",
+        "url": "wss://sei-devnet.drpc.org"
       }
     ],
     "explorers": [
-      {
+       {
         "name": "Seistream",
-        "url": "https://seistream.app/",
-        "tx_page": "https://seistream.app/transactions/${txHash}"
+        "url": "https://devnet.seistream.app/",
+        "tx_page": "https://devnet.seistream.app/${txHash}"
       },
       {
         "name": "Seitrace",
         "url": "https://seitrace.com/",
         "tx_page": "https://seitrace.com/tx/${txHash}?chain=arctic-1"
-      }
+      },
     ],
     "faucets": [
       { 
