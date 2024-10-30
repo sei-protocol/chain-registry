@@ -126,7 +126,7 @@
       {
         "provider": "dRPC",
         "url": "wss://sei.drpc.org"
-      },
+      }
     ],
     "explorers": [
       {
@@ -143,6 +143,11 @@
         "name": "explorers-guru",
         "url": "https://sei.explorers.guru",
         "tx_page": "https://sei.explorers.guru/tx/${txHash}"
+      },
+      {
+        "name": "Seiscan",
+        "url": "https://www.seiscan.app/pacific-1",
+        "tx_page": "https://www.seiscan.app/pacific-1/txs/${txHash}"
       }
     ]
   },
@@ -242,6 +247,11 @@
         "name": "Seistream",
         "url": "https://testnet.seistream.app/",
         "tx_page": "https://testnet.seistream.app/${txHash}"
+      },
+      {
+        "name": "Seiscan",
+        "url": "https://www.seiscan.app/atlantic-2",
+        "tx_page": "https://www.seiscan.app/atlantic-2/txs/${txHash}"
       }
     ],
     "faucets": [
@@ -342,9 +352,13 @@
         "name": "Seitrace",
         "url": "https://seitrace.com/",
         "tx_page": "https://seitrace.com/tx/${txHash}?chain=arctic-1"
-      },
+      }
     ],
     "faucets": [
+      { 
+        "provider": "Sei App", 
+        "url": "https://arctic-1.app.sei.io/faucet/" 
+      },
       { 
         "provider": "NIMA", 
         "url": "https://sei-faucet.nima.enterprises/" 
