@@ -79,6 +79,10 @@
         "provider": "Lavender.Five Nodes",
         "url": "https://sei-grpc.lavenderfive.com"
       },
+        {
+        "provider": "Stingray",
+        "url": "https://grpc-sei.stingray.plus:443"
+      },
       {
         "provider": "Polkachu",
         "url": "https://sei-grpc.polkachu.com:11990"
@@ -98,6 +102,10 @@
         "url": "https://black-dark-breeze.sei-pacific.quiknode.pro"
       },
       {
+        "provider": "Stingray",
+        "url": "https://evm-rpc-sei.stingray.plus"
+      },
+      {
         "provider": "dRPC",
         "url": "https://sei.drpc.org"
       },
@@ -110,6 +118,10 @@
       {
         "provider": "Quiknode",
         "url": "wss://black-dark-breeze.sei-pacific.quiknode.pro"
+      },
+      {
+        "provider": "Stingray",
+        "url": "wss://evm-ws-sei.stingray.plus"
       },
       {
         "provider": "dRPC",
@@ -127,6 +139,11 @@
         "url": "https://seistream.app/",
         "tx_page": "https://seistream.app/${txHash}"
       },
+      {
+        "name": "explorers-guru",
+        "url": "https://sei.explorers.guru",
+        "tx_page": "https://sei.explorers.guru/tx/${txHash}"
+      }
     ]
   },
   "atlantic-2": {
@@ -140,6 +157,10 @@
       {
         "provider": "Polkachu",
         "url": "https://sei-testnet-rpc.polkachu.com"
+      },
+      {
+        "provider": "Stingray",
+        "url": "https://rpc-testnet-sei.stingray.plus"
       },
       {
         "provider": "Sei",
@@ -156,6 +177,10 @@
         "url": "https://sei-testnet-api.polkachu.com"
       },
       {
+        "provider": "Stingray",
+        "url": "https://api-testnet-sei.stingray.plus"
+      },
+      {
         "provider": "Sei",
         "url": "https://rest.atlantic-2.seinetwork.io"
       }
@@ -164,6 +189,10 @@
       {
         "provider": "Rhino",
         "url": "https://grpc-testnet.sei-apis.com"
+      },
+      {
+        "provider": "Stingray",
+        "url": "https://grpc-testnet-sei.stingray.plus:443"
       },
       {
         "provider": "Polkachu",
@@ -175,7 +204,11 @@
         "provider": "Rhino",
         "url": "https://evm-rpc-testnet.sei-apis.com"
       },
-       {
+      {
+        "provider": "Stingray",
+        "url": "https://evm-rpc-testnet-sei.stingray.plus"
+      },
+      {
         "provider": "dRPC",
         "url": "https://sei-testnet.drpc.org"
       }
@@ -185,7 +218,11 @@
         "provider": "Rhino",
         "url": "wss://evm-ws-testnet.sei-apis.com"
       },
-       {
+      {
+        "provider": "Stingray",
+        "url": "wss://evm-ws-testnet-sei.stingray.plus"
+      },
+      {
         "provider": "dRPC",
         "url": "wss://sei-testnet.drpc.org"
       }
@@ -198,8 +235,8 @@
       },
       {
         "name": "explorers-guru",
-        "url": "https://sei.explorers.guru",
-        "tx_page": "https://sei.explorers.guru/tx/${txHash}?chain=atlantic-2"
+        "url": "https://testnet.sei.explorers.guru",
+        "tx_page": "https://testnet.sei.explorers.guru/tx/${txHash}"
       },
       {
         "name": "Seistream",
@@ -227,6 +264,10 @@
         "url": "https://rpc-arctic-1.sei-apis.com"
       },
       {
+        "provider": "Stingray",
+        "url": "https://rpc-devnet-sei.stingray.plus"
+      },
+      {
         "provider": "Sei",
         "url": "https://rpc.arctic-1.seinetwork.io/"
       }
@@ -237,6 +278,10 @@
         "url": "https://rest-arctic-1.sei-apis.com"
       },
       {
+        "provider": "Stingray",
+        "url": "https://api-devnet-sei.stingray.plus"
+      },
+      {
         "provider": "Sei",
         "url": "https://rest.arctic-1.seinetwork.io/"
       }
@@ -245,7 +290,11 @@
       {
         "provider": "Rhino",
         "url": "https://grpc-arctic-1.sei-apis.com"
-      }
+      },
+      {
+        "provider": "Stingray",
+        "url": "https://grpc-devnet-sei.stingray.plus:443"
+      },
     ],
     "evm_rpc": [
       {
@@ -259,6 +308,10 @@
       {
         "provider": "dRPC",
         "url": "https://sei-devnet.drpc.org"
+      },
+      {
+        "provider": "Stingray",
+        "url": "https://evm-rpc-devnet-sei.stingray.plus"
       }
     ],
     "evm_ws": [
@@ -273,6 +326,10 @@
       {
         "provider": "dRPC",
         "url": "wss://sei-devnet.drpc.org"
+      },
+      {
+        "provider": "Stingray",
+        "url": "wss://evm-ws-devnet-sei.stingray.plus"
       }
     ],
     "explorers": [
