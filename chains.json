@@ -108,7 +108,7 @@
       {
         "provider": "dRPC",
         "url": "https://sei.drpc.org"
-      },
+      }
     ],
     "evm_ws": [
       {
@@ -242,7 +242,7 @@
         "name": "Seistream",
         "url": "https://testnet.seistream.app/",
         "tx_page": "https://testnet.seistream.app/${txHash}"
-      },
+      }
     ],
     "faucets": [
       { 
@@ -294,7 +294,7 @@
       {
         "provider": "Stingray",
         "url": "https://grpc-devnet-sei.stingray.plus:443"
-      },
+      }
     ],
     "evm_rpc": [
       {
