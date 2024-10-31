@@ -148,6 +148,11 @@
         "name": "Seiscan",
         "url": "https://www.seiscan.app/pacific-1",
         "tx_page": "https://www.seiscan.app/pacific-1/txs/${txHash}"
+      },
+      {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/sei",
+        "tx_page": "https://www.mintscan.io/sei/tx/${txHash}"
       }
     ]
   },
