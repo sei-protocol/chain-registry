@@ -25,27 +25,6 @@
         },
         "min_gas_price": {
           "type": "number"
-        },
-        "module_adjustments": {
-          "type": "object",
-          "properties": {
-            "dex": {
-              "type": "object",
-              "properties": {
-                "sudo_gas_price": {
-                  "type": "number"
-                },
-                "order_placement": {
-                  "type": "number"
-                },
-                "order_cancellation": {
-                  "type": "number"
-                }
-              },
-              "additionalProperties": false
-            }
-          },
-          "additionalProperties": false
         }
       },
       "additionalProperties": false
