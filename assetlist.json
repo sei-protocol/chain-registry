@@ -17,7 +17,8 @@
         }
       ],
       "images": {
-        "png": "https://github.com/cosmos/chain-registry/blob/master/testnets/seitestnet2/images/sei.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.svg"
       }
     },
     {
@@ -538,7 +539,8 @@
         }
       ],
       "images": {
-        "png": "https://github.com/cosmos/chain-registry/blob/master/testnets/seitestnet2/images/sei.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.svg"
       }
     },
     {
@@ -706,7 +708,8 @@
         }
       ],
       "images": {
-        "png": "https://github.com/cosmos/chain-registry/blob/master/testnets/seitestnet2/images/sei.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.svg"
       }
     }
   ],
@@ -728,7 +731,8 @@
         }
       ],
       "images": {
-        "png": "https://github.com/cosmos/chain-registry/blob/master/testnets/seitestnet2/images/sei.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.svg"
       }
     }
   ]
