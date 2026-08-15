@@ -18,7 +18,7 @@
       "name": "Coin98 Wallet",
       "identifier": "coin98",
       "icon": "https://raw.githubusercontent.com/sei-protocol/chain-registry/main/images/coin98-logo.svg",
-      "url": "https://chromewebstore.google.com/detail/coin98-wallet/aeachknmefphepccionboohckonoeemg",
+      "url": "https://coin98.com",
       "capabilities": ["native"]
     }
   ]
