@@ -7,5 +7,5 @@
   "key_algos": ["secp256k1"],
   "slip44": 118,
   "fee_token": "usei",
-  "supported_wallets": ["fin", "compass", "leap", "keplr"]
+  "supported_wallets": ["metamask", "keplr", "coin98"]
 }

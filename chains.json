@@ -13,14 +13,10 @@
       },
       {
         "provider": "Lavender.Five Nodes",
-        "url": "https://sei-rpc.lavenderfive.com"
+        "url": "https://rpc.lavenderfive.com:443/sei"
       },
       {
-        "provider": "Brochain",
-        "url": "https://sei-rpc.brocha.in"
-      },
-      {
-        "provider": "Stingray",
+        "provider": "Staketab",
         "url": "https://rpc-sei.stingray.plus"
       },
       {
@@ -33,7 +29,7 @@
       },
       {
         "provider": "1RPC",
-        "url": "https://1rpc.io/sei-rpc"
+        "url": "https://public.1rpc.io/sei-rpc"
       }
     ],
     "rest": [
@@ -43,18 +39,14 @@
       },
       {
         "provider": "Lavender.Five Nodes",
-        "url": "https://sei-api.lavenderfive.com"
+        "url": "https://rest.lavenderfive.com:443/sei"
       },
       {
         "provider": "Polkachu",
         "url": "https://sei-api.polkachu.com"
       },
       {
-        "provider": "Brochain",
-        "url": "https://sei-rest.brocha.in"
-      },
-      {
-        "provider": "Stingray",
+        "provider": "Staketab",
         "url": "https://api-sei.stingray.plus"
       },
       {
@@ -64,10 +56,6 @@
       {
         "provider": "Allnodes",
         "url": "https://sei-rest.publicnode.com"
-      },
-      {
-        "provider": "1RPC",
-        "url": "https://1rpc.io/sei-lcd"
       }
     ],
     "grpc": [
@@ -77,15 +65,11 @@
       },
       {
         "provider": "Lavender.Five Nodes",
-        "url": "https://sei-grpc.lavenderfive.com"
-      },
-        {
-        "provider": "Stingray",
-        "url": "https://grpc-sei.stingray.plus:443"
+        "url": "https://sei.lavenderfive.com:443"
       },
       {
-        "provider": "Polkachu",
-        "url": "https://sei-grpc.polkachu.com:11990"
+        "provider": "Staketab",
+        "url": "https://grpc-sei.stingray.plus:443"
       },
       {
         "provider": "Allnodes",
@@ -98,11 +82,7 @@
         "url": "https://evm-rpc.sei-apis.com"
       },
       {
-        "provider": "Quiknode",
-        "url": "https://black-dark-breeze.sei-pacific.quiknode.pro"
-      },
-      {
-        "provider": "Stingray",
+        "provider": "Staketab",
         "url": "https://evm-rpc-sei.stingray.plus"
       },
       {
@@ -116,11 +96,7 @@
         "url": "wss://evm-ws.sei-apis.com"
       },
       {
-        "provider": "Quiknode",
-        "url": "wss://black-dark-breeze.sei-pacific.quiknode.pro"
-      },
-      {
-        "provider": "Stingray",
+        "provider": "Staketab",
         "url": "wss://evm-ws-sei.stingray.plus"
       },
       {
@@ -130,29 +106,19 @@
     ],
     "explorers": [
       {
-        "name": "Seitrace",
-        "url": "https://seitrace.com/",
-        "tx_page": "https://seitrace.com/tx/${txHash}?chain=pacific-1"
-      },
-      {
         "name": "Seistream",
         "url": "https://seistream.app/",
-        "tx_page": "https://seistream.app/${txHash}"
+        "tx_page": "https://seistream.app/transactions/${txHash}"
       },
       {
-        "name": "explorers-guru",
+        "name": "NG Explorer",
         "url": "https://sei.explorers.guru",
-        "tx_page": "https://sei.explorers.guru/tx/${txHash}"
+        "tx_page": "https://sei.explorers.guru/transaction/${txHash}"
       },
       {
         "name": "Seiscan",
-        "url": "https://www.seiscan.app/pacific-1",
-        "tx_page": "https://www.seiscan.app/pacific-1/txs/${txHash}"
-      },
-      {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/sei",
-        "tx_page": "https://www.mintscan.io/sei/tx/${txHash}"
+        "url": "https://seiscan.io",
+        "tx_page": "https://seiscan.io/tx/${txHash}"
       }
     ]
   },
@@ -169,7 +135,7 @@
         "url": "https://sei-testnet-rpc.polkachu.com"
       },
       {
-        "provider": "Stingray",
+        "provider": "Staketab",
         "url": "https://rpc-testnet-sei.stingray.plus"
       },
       {
@@ -187,7 +153,7 @@
         "url": "https://sei-testnet-api.polkachu.com"
       },
       {
-        "provider": "Stingray",
+        "provider": "Staketab",
         "url": "https://api-testnet-sei.stingray.plus"
       },
       {
@@ -201,7 +167,7 @@
         "url": "https://grpc-testnet.sei-apis.com"
       },
       {
-        "provider": "Stingray",
+        "provider": "Staketab",
         "url": "https://grpc-testnet-sei.stingray.plus:443"
       },
       {
@@ -215,7 +181,7 @@
         "url": "https://evm-rpc-testnet.sei-apis.com"
       },
       {
-        "provider": "Stingray",
+        "provider": "Staketab",
         "url": "https://evm-rpc-testnet-sei.stingray.plus"
       },
       {
@@ -229,7 +195,7 @@
         "url": "wss://evm-ws-testnet.sei-apis.com"
       },
       {
-        "provider": "Stingray",
+        "provider": "Staketab",
         "url": "wss://evm-ws-testnet-sei.stingray.plus"
       },
       {
@@ -239,34 +205,29 @@
     ],
     "explorers": [
       {
-        "name": "Seitrace",
-        "url": "https://seitrace.com/",
-        "tx_page": "https://seitrace.com/tx/${txHash}?chain=atlantic-2"
-      },
-      {
-        "name": "explorers-guru",
+        "name": "NG Explorer",
         "url": "https://testnet.sei.explorers.guru",
-        "tx_page": "https://testnet.sei.explorers.guru/tx/${txHash}"
+        "tx_page": "https://testnet.sei.explorers.guru/transaction/${txHash}"
       },
       {
         "name": "Seistream",
         "url": "https://testnet.seistream.app/",
-        "tx_page": "https://testnet.seistream.app/${txHash}"
+        "tx_page": "https://testnet.seistream.app/transactions/${txHash}"
       },
       {
         "name": "Seiscan",
-        "url": "https://www.seiscan.app/atlantic-2",
-        "tx_page": "https://www.seiscan.app/atlantic-2/txs/${txHash}"
+        "url": "https://testnet.seiscan.io",
+        "tx_page": "https://testnet.seiscan.io/tx/${txHash}"
       }
     ],
     "faucets": [
-      { 
-        "provider": "Sei App", 
-        "url": "https://atlantic-2.app.sei.io/faucet" 
+      {
+        "provider": "Sei Foundation",
+        "url": "https://docs.sei.io/learn/faucet"
       },
-      { 
-        "provider": "FAUCETME", 
-        "url": "https://sei.faucetme.pro/" 
+      {
+        "provider": "FAUCETME",
+        "url": "https://sei.faucetme.pro/"
       }
     ]
   },
@@ -279,10 +240,6 @@
         "url": "https://rpc-arctic-1.sei-apis.com"
       },
       {
-        "provider": "Stingray",
-        "url": "https://rpc-devnet-sei.stingray.plus"
-      },
-      {
         "provider": "Sei",
         "url": "https://rpc.arctic-1.seinetwork.io/"
       }
@@ -293,10 +250,6 @@
         "url": "https://rest-arctic-1.sei-apis.com"
       },
       {
-        "provider": "Stingray",
-        "url": "https://api-devnet-sei.stingray.plus"
-      },
-      {
         "provider": "Sei",
         "url": "https://rest.arctic-1.seinetwork.io/"
       }
@@ -305,10 +258,6 @@
       {
         "provider": "Rhino",
         "url": "https://grpc-arctic-1.sei-apis.com"
-      },
-      {
-        "provider": "Stingray",
-        "url": "https://grpc-devnet-sei.stingray.plus:443"
       }
     ],
     "evm_rpc": [
@@ -323,10 +272,6 @@
       {
         "provider": "dRPC",
         "url": "https://sei-devnet.drpc.org"
-      },
-      {
-        "provider": "Stingray",
-        "url": "https://evm-rpc-devnet-sei.stingray.plus"
       }
     ],
     "evm_ws": [
@@ -341,36 +286,6 @@
       {
         "provider": "dRPC",
         "url": "wss://sei-devnet.drpc.org"
-      },
-      {
-        "provider": "Stingray",
-        "url": "wss://evm-ws-devnet-sei.stingray.plus"
-      }
-    ],
-    "explorers": [
-       {
-        "name": "Seistream",
-        "url": "https://devnet.seistream.app/",
-        "tx_page": "https://devnet.seistream.app/${txHash}"
-      },
-      {
-        "name": "Seitrace",
-        "url": "https://seitrace.com/",
-        "tx_page": "https://seitrace.com/tx/${txHash}?chain=arctic-1"
-      }
-    ],
-    "faucets": [
-      { 
-        "provider": "Sei App", 
-        "url": "https://arctic-1.app.sei.io/faucet/" 
-      },
-      { 
-        "provider": "NIMA", 
-        "url": "https://sei-faucet.nima.enterprises/" 
-      },
-      { 
-        "provider": "FAUCETME", 
-        "url": "https://sei-evm.faucetme.pro/" 
       }
     ]
   }
