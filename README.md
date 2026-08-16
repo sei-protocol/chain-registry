@@ -1,7 +1,10 @@
 # registry
 
-## Asset list
-Please note, that the [assetlist.json](./assetlist.json) is being deprecated.
+## Deprecated files
 
-Please use [this repo](https://github.com/Sei-Public-Goods/sei-assetlist) to get the latest asset list.
-This asset list is run by community and is not maintained by Sei Labs team.
+- `assetlist.json` has been removed. Use the community-maintained [Sei asset list](https://github.com/Sei-Public-Goods/sei-assetlist) instead.
+- `ibc_info.json` has been removed because IBC is disabled in both directions on Sei. See the [SIP-03 migration guide](https://docs.sei.io/learn/sip-03-migration) for details.
+
+## Network notes
+
+- `arctic-1` is currently endpoint-only; no supported explorer or faucet is listed.
