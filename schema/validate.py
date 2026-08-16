@@ -1,6 +1,13 @@
 import json
 import sys
+from pathlib import Path
+
 from jsonschema import validate, ValidationError
+
+REGISTRY_RAW_URL = (
+    "https://raw.githubusercontent.com/"
+    "sei-protocol/chain-registry/main/"
+)
 
 
 def load_json(path):
@@ -27,11 +34,11 @@ def validate_file(schema_path, file_path):
 def validate_wallet_references(chain_info_path, wallets_path):
     chain_info = load_json(chain_info_path)
     wallets = load_json(wallets_path)
-    wallet_identifiers = {
-        wallet["identifier"] for wallet in wallets["extensions"]
+    wallets_by_identifier = {
+        wallet["identifier"]: wallet for wallet in wallets["extensions"]
     }
     missing_wallets = sorted(
-        set(chain_info["supported_wallets"]) - wallet_identifiers
+        set(chain_info["supported_wallets"]) - wallets_by_identifier.keys()
     )
 
     if missing_wallets:
@@ -41,7 +48,40 @@ def validate_wallet_references(chain_info_path, wallets_path):
         )
         sys.exit(1)
 
-    print(f"{chain_info_path} has valid wallet references.")
+    non_native_wallets = sorted(
+        identifier
+        for identifier in chain_info["supported_wallets"]
+        if "native" not in wallets_by_identifier[identifier]["capabilities"]
+    )
+
+    if non_native_wallets:
+        print(
+            f"{chain_info_path} references wallets without native support: "
+            f"{', '.join(non_native_wallets)}"
+        )
+        sys.exit(1)
+
+    registry_root = Path(wallets_path).resolve().parent
+    missing_icons = sorted(
+        wallet["identifier"]
+        for wallet in wallets["extensions"]
+        if wallet["icon"].startswith(REGISTRY_RAW_URL)
+        and not (
+            registry_root / wallet["icon"].removeprefix(REGISTRY_RAW_URL)
+        ).is_file()
+    )
+
+    if missing_icons:
+        print(
+            f"{wallets_path} references missing local icons for: "
+            f"{', '.join(missing_icons)}"
+        )
+        sys.exit(1)
+
+    print(
+        f"{chain_info_path} has valid wallet references, "
+        "capabilities, and icons."
+    )
 
 
 if __name__ == "__main__":
